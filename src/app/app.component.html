@@ -5,21 +5,26 @@
     <title>Untappd</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>Discover</li>
-        <li>My page</li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <ul class="navbar-nav">
+        <li class="navbar-brand"><a class="nav-link" routerLink="">Home</a></li>
+        <li class="navbar-brand"><a class="nav-link" routerLink="">Discover</a></li>
+        <li class="navbar-brand"><a class="nav-link" routerLink="">My page</a></li>
         <input #searchFunction placeholder="Search">
       </ul>
     </nav>
-    <div class="row">
-      <div class="col-md-8">
-        <app-timeline></app-timeline>
-      </div>
-      <div class="col-md-4">
-        <app-user-module></app-user-module>
-        <app-wishlist></app-wishlist>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-1">
+
+        </div>
+        <div class="col-md-7">
+          <app-timeline></app-timeline>
+        </div>
+        <div class="col-md-4">
+          <app-user-module></app-user-module>
+          <app-wishlist></app-wishlist>
+        </div>
       </div>
     </div>
   </body>
