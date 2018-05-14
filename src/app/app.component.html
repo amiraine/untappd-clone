@@ -5,8 +5,22 @@
     <title>Untappd</title>
   </head>
   <body>
-    <!-- nav bar goes here -->
-    <!-- friend activity -->
-    <!-- user module -->
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Discover</li>
+        <li>My page</li>
+        <input #searchFunction placeholder="Search">
+      </ul>
+    </nav>
+    <div class="row">
+      <div class="col-md-8">
+        <app-timeline></app-timeline>
+      </div>
+      <div class="col-md-4">
+        <app-user-module></app-user-module>
+        <app-wishlist></app-wishlist>
+      </div>
+    </div>
   </body>
 </html>

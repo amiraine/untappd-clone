@@ -3,11 +3,17 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { TimelineComponent } from './timeline/timeline.component';
+import { UserModuleComponent } from './user-module/user-module.component';
+import { WishlistComponent } from './wishlist/wishlist.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TimelineComponent,
+    UserModuleComponent,
+    WishlistComponent
   ],
   imports: [
     BrowserModule
