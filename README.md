@@ -1,6 +1,35 @@
-# UntappdClone
+# UntappdClone :beer:
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+
+_Authored by Cameron Button, Ami Cooper, Kayl Eubanks, and Kristen Chellis_
+
+## Description
+
+  This App is designed to act like the untappd website/ app.  User's can log in with a personal profile and log beers that they drink along with any comments about what they think about the beer.  Breweries can make their own accounts and list the beers they have for sale with notes on those beers.
+
+## User Stories
+
+  * A user can search for breweries and see a list of beers/ ciders/ wines 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Development server
 
