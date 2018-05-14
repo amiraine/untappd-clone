@@ -1,0 +1,12 @@
+.panel {
+  background-color: white;
+}
+table {
+  background-color: #76727e;
+  width: 80%;
+  height: 80%;
+  text-align: center;
+}
+td {
+  border: 1px solid black;
+}
