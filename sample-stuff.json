@@ -1,4 +1,4 @@
-{ "BEERS": [{
+{ "beers": [{
   "name": "Superfuzz",
   "brewery": "Elysian Brewing",
   "type": "Blood Orange Pale Ale",
@@ -36,5 +36,10 @@
     "address": "900 Kruse Way",
     "zip": 98122
     }],
-    "users": []
+    "users": [{
+      "name": "sassyusername",
+      "beersDrank": [],
+      "wishlist": [],
+      "postList": []
+      }]
 }
