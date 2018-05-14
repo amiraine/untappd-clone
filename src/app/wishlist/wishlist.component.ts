@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { BEERS } from '../mock-beers';
 import { Beer } from '../models/beer.model';
+import {SearchPipe} from '../search.pipe';
 
 @Component({
   selector: 'app-wishlist',

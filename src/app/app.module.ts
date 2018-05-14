@@ -1,12 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+<<<<<<< HEAD
+=======
 import { HttpModule } from '@angular/http';
 import { routing } from './app.routing';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularFire2';
 import { AngularFireDatabaseModule } from 'angularFire2/database';
 import { AngularFireDatabase, FirebaseObjectObservable } from 'angularfire2/database';
+>>>>>>> 2c26632ae10aa0d7ab82223bd60b8394788a91fc
 
 import { AppComponent } from './app.component';
 import { TimelineComponent } from './timeline/timeline.component';
@@ -24,6 +27,7 @@ export const firebaseConfig = {
   databaseURL: masterFirebaseConfig.databaseURL,
   storageBucket: masterFirebaseConfig.storageBucket
 };
+import { routing } from './app.routing';
 
 @NgModule({
   declarations: [
@@ -35,15 +39,21 @@ export const firebaseConfig = {
     BreweryPageComponent,
     MyPageComponent,
     DiscoverComponent,
-    BarListComponent
+    BarListComponent,
+    // SearchPipe
   ],
   imports: [
     BrowserModule,
+<<<<<<< HEAD
+    routing,
+    FormsModule
+=======
     FormsModule,
     HttpModule,
     routing,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule
+>>>>>>> 2c26632ae10aa0d7ab82223bd60b8394788a91fc
   ],
   providers: [],
   bootstrap: [AppComponent]
