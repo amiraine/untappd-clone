@@ -1,4 +1,5 @@
 .panel {
+  margin-top: 15px;
   background-color: white;
 }
 table {
@@ -9,4 +10,9 @@ table {
 }
 td {
   border: 1px solid black;
+}
+img {
+  display: block;
+  float: left;
+  height: 50px;
 }
