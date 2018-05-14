@@ -13,8 +13,17 @@ export class BeerService {
     return this.beerList;
   }
 
-  getBeersById(beerId) {
+  getBeerById(beerId) {
     return this.database.object('beers/' + beerId);
+  }
+
+  saveBeer(newBeer: Beer) {
+    this.beerList.push(newBeer);
+  }
+
+  deleteBeer(outBeer) {
+    let entryInFirebase = this.getBeerById(outBeer.$key);
+    entryInFirebase.remove();
   }
 
 }

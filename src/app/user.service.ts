@@ -9,12 +9,21 @@ export class UserService {
       this.userList = database.list('users');
    }
 
-  getusers() {
+  getUsers() {
     return this.userList;
   }
 
-  getusersById(userId) {
+  getUserById(userId) {
     return this.database.object('users/' + userId);
+  }
+
+  saveUser(newUser: User) {
+    this.userList.push(newUser);
+  }
+
+  deleteBeer(outUser) {
+    let entryInFirebase = this.getUserById(outUser.$key);
+    entryInFirebase.remove();
   }
 
 }
