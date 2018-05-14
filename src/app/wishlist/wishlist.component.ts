@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { BEERS } from '../mock-beers';
+import { Beer } from '../models/beer.model';
 
 @Component({
   selector: 'app-wishlist',
@@ -6,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./wishlist.component.css']
 })
 export class WishlistComponent implements OnInit {
-
+  beerList = BEERS;
   constructor() { }
 
   ngOnInit() {

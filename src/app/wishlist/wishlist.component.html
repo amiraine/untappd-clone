@@ -1,3 +1,11 @@
-<p>
-  wishlist works!
-</p>
+<div class="panel">
+  <div class="panel-header">
+    <h3>Wishlist:</h3>
+    <hr>
+  </div>
+  <div class="panel-body">
+    <ul>
+      <li *ngFor="let beer of beerList">{{beer.name}}</li>
+    </ul>
+  </div>
+</div>
