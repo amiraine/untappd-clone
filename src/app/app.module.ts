@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { TimelineComponent } from './timeline/timeline.component';
@@ -9,9 +9,12 @@ import { WishlistComponent } from './wishlist/wishlist.component';
 import { HomeComponent } from './home/home.component';
 import { BreweryPageComponent } from './brewery-page/brewery-page.component';
 import { MyPageComponent } from './my-page/my-page.component';
-import {routing} from './app.routing';
 import { DiscoverComponent } from './discover/discover.component';
 import { BarListComponent } from './bar-list/bar-list.component';
+
+import { routing } from './app.routing';
+
+// import { SearchPipe } from './search.pipe';
 
 @NgModule({
   declarations: [
@@ -23,11 +26,13 @@ import { BarListComponent } from './bar-list/bar-list.component';
     BreweryPageComponent,
     MyPageComponent,
     DiscoverComponent,
-    BarListComponent
+    BarListComponent,
+    // SearchPipe
   ],
   imports: [
     BrowserModule,
-    routing
+    routing,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
