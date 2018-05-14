@@ -13,7 +13,10 @@ import { TimelineComponent } from './timeline/timeline.component';
 import { UserModuleComponent } from './user-module/user-module.component';
 import { WishlistComponent } from './wishlist/wishlist.component';
 import { HomeComponent } from './home/home.component';
-
+import { BreweryPageComponent } from './brewery-page/brewery-page.component';
+import { MyPageComponent } from './my-page/my-page.component';
+import { DiscoverComponent } from './discover/discover.component';
+import { BarListComponent } from './bar-list/bar-list.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -28,7 +31,11 @@ export const firebaseConfig = {
     TimelineComponent,
     UserModuleComponent,
     WishlistComponent,
-    HomeComponent
+    HomeComponent,
+    BreweryPageComponent,
+    MyPageComponent,
+    DiscoverComponent,
+    BarListComponent
   ],
   imports: [
     BrowserModule,
