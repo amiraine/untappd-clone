@@ -8,11 +8,24 @@ _Authored by Cameron Button, Ami Cooper, Kayl Eubanks, and Kristen Chellis_
 
   This App is designed to act like the untappd website/ app.  User's can log in with a personal profile and log beers that they drink along with any comments about what they think about the beer.  Breweries can make their own accounts and list the beers they have for sale with notes on those beers.
 
+
+## Set up and installation
+
+  * Follow this link
+  * or
+  * set up stuff....
+
+
 ## User Stories
 
-  * A user can search for breweries and see a list of beers/ ciders/ wines 
+  * A user can search for breweries and see a list of beers/ ciders/ wines
+  * User can post about beers they are currently drinking
+  * Breweries can make a list of their beers
+  * User can "like" beers or breweries
 
+  ![A user interface picture](src/assets/img/usermock.png)
 
+  ![A user interface picture](src/assets/img/brewerymock.png)
 
 
 
