@@ -8,14 +8,17 @@ import { UserService } from '../user.service';
   providers: [UserService]
 })
 export class MyPageComponent implements OnInit {
+  userList;
   currentUser;
 
   constructor(private userService: UserService) { }
 
   ngOnInit() {
-    this.userService.getUserById('0').subscribe(dataLastEmittedFromObserver => {
-     this.currentUser = dataLastEmittedFromObserver;
+    this.userService.getUsers().subscribe(dataLastEmittedFromObserver => {
+     this.userList = dataLastEmittedFromObserver;
+     this.currentUser= this.userList[0];
    })
+
   }
 
 }
