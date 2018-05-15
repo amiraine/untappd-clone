@@ -18,7 +18,8 @@ export class WishlistComponent implements OnInit {
   constructor(private beerService: BeerService) { }
 
   ngOnInit() {
-    
+
+
   }
 
 }

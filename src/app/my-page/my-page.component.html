@@ -3,8 +3,8 @@
 
   </div>
   <div class="col-md-7">
-    <!-- <div *ngFor="let post of currentUser?.postList">
-      <h4>{{currentUser.name}} is drinking {{post.beerOption.name}} by {{post.beerOption.brewery}} at {{post.location}}</h4>
+    <!-- <div *ngFor="let post of userPostList">
+      <h4>{{currentUser.name}} is drinking {{getBeer(post).name}} by {{getBeer(post).brewery}} at {{post.location}}</h4>
       <p>{{post.rating}}</p>
       <p>{{post.body}}</p>
       <img *ngFor="let image of post.images" src="{{image}}" alt="picture">
