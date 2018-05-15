@@ -19,6 +19,9 @@ export class AddPostComponent implements OnInit {
   constructor(private postService: PostService, private userService: UserService) { }
 
   ngOnInit() {
+    this.userService.getUserById('0').subscribe(dataLastEmittedFromObserver => {
+     this.currentUser = dataLastEmittedFromObserver;
+   })
   }
 
   addPost(rating, body, images, location) {
