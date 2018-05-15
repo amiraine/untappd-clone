@@ -1,18 +1,20 @@
 /* imported assets */
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
 /* HTML TAG STYLES*/
-
+*{
+  padding: 0px;
+}
 body{
   background-color: #dddddd!important;
 }
 a:hover{
   color: #eeeeee!important;
-  cursor: crosshair;
+}
+a.nav-link{
+  padding-top: 20px!important;
 }
 img {
-  display: block;
-  float: left;
-  height: 50px;
+  max-width: 700px;
 }
 /* CLASS STYLES*/
 .logo{
@@ -24,6 +26,7 @@ img {
 }
 .nav-link{
   color: #262626!important;
+  height: 82px!important;
 }
 .container-fluid{
   margin-top: 5vh;
