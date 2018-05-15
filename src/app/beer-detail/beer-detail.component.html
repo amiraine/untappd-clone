@@ -1,8 +1,12 @@
-<h3>{{selectedBeer?.name}} by {{selectedBeer?.brewery}}</h3>
+<h3>{{currentUser?.name}} is viewing {{selectedBeer?.name}} by {{selectedBeer?.brewery}}</h3>
 <hr>
 <p>ABv: {{selectedBeer?.abv}}  IBU: {{selectedBeer?.ibu}}
 This beer is a {{selectedBeer?.type}} that tastes {{selectedBeer?.notes}}.
 {{selectedBeer?.description}}</p>
-<button (click)="makePost()">I drank this beer</button>
-<button (click)="addToWish()">I want to drink this beer</button>
+<div *ngIf="drank">
+  <button (click)="makePost()">I drank this beer</button>
+  <button (click)="addToWish()" *ngIf="wish">I want to drink this beer</button>
+</div>
+
 <app-add-post [add]="add" [selectedBeer]="selectedBeer" [currentUser]="currentUser" (endAdd)=endAdd()></app-add-post>
+<!-- *ngIf="wishlistCheck()" -->

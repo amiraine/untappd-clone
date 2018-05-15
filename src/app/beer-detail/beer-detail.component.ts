@@ -19,6 +19,8 @@ export class BeerDetailComponent implements OnInit {
   beerId;
   add: boolean = false;
   currentUser;
+  drank = true;
+  wish = true;
 
   constructor(private beerService: BeerService, private location: Location, private router: ActivatedRoute, private routes: Router, private userService: UserService) { }
 
@@ -27,11 +29,21 @@ export class BeerDetailComponent implements OnInit {
       this.beerId = urlParameters['id'];
     });
     this.beerService.getBeerById(this.beerId).subscribe(dataLastEmittedFromObserver => {
-     this.selectedBeer = dataLastEmittedFromObserver;
-   })
-   this.userService.getUserById('0').subscribe(dataLastEmittedFromObserver => {
-    this.currentUser = dataLastEmittedFromObserver;
-  })
+      this.selectedBeer = dataLastEmittedFromObserver;
+    })
+    this.userService.getUserById('0').subscribe(dataLastEmittedFromObserver => {
+      this.currentUser = dataLastEmittedFromObserver;
+      this.currentUser.beersDrank.forEach((beer) => {
+        if (beer === this.selectedBeer.name) {
+          this.drank = false;
+        }
+      })
+      this.currentUser.wishlist.forEach((beer) => {
+        if (beer === this.selectedBeer.name) {
+          this.wish = false;
+        }
+      })
+    })
   }
 
   makePost() {
@@ -42,6 +54,18 @@ export class BeerDetailComponent implements OnInit {
     this.currentUser.wishlist.push(this.selectedBeer.name);
     this.userService.updateUser(this.currentUser);
   }
+  endAdd(){
+    this.add=false;
+  }
 
+  // drinkCheck() {
+  //   console.log(this.currentUser)
+  //   this.currentUser.beersDrank.forEach((beer) => {
+  //     if (beer === this.selectedBeer.name ) {
+  //       return false;
+  //     }
+  //   })
+  //   return true;
+  // }
 
 }
