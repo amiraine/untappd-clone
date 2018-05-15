@@ -26,10 +26,10 @@ export class AddPostComponent implements OnInit {
 
   addPost(rating, body, images, location) {
     let imagesArray = images.split(",");
-    let newPost = new Post(this.currentUser, body, imagesArray, this.selectedBeer, location, rating);
+    let newPost = new Post(this.currentUser.name, body, imagesArray, this.selectedBeer.name, location, rating);
     this.postService.savePost(newPost);
-    this.currentUser.postList.push(newPost);
-    this.currentUser.beersDrank.push(this.selectedBeer);
+    this.currentUser.postList.push(newPost.beerOption);
+    this.currentUser.beersDrank.push(this.selectedBeer.name);
     this.userService.updateUser(this.currentUser);
     this.endAdd.emit();
 

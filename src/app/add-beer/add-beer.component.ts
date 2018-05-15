@@ -20,20 +20,22 @@ export class AddBeerComponent implements OnInit {
   ngOnInit() {
     this.route.params.forEach((urlParameters) => {
       this.breweryId = parseInt(urlParameters['id']);
-      console.log(this.breweryId + " brewery id");
     });
     this.breweryService.getBreweryById(this.breweryId).subscribe(dataLastEmittedFromObserver => {
       this.brewery = dataLastEmittedFromObserver;
-      console.log(this.brewery + "meh");
     });
   }
 
   newBeer(name, type, abv, ibu, rating, description, notes) {
-    let breweryName = "";
     let newBeer: Beer = new Beer (name, this.brewery.name, type, abv, ibu, rating, description, notes);
-    console.log(newBeer);
     this.beerService.saveBeer(newBeer);
-    this.brewery.beers.push(newBeer);
+    this.brewery.beers.push(newBeer.name);
+    this.brewery.beer.forEach((beer) =>{
+      if(beer === "no beer yet"){
+        let index = this.brewery.beers.indexOf(beer);
+        this.brewery.beers.splice(index, 1);
+      }
+    })
     this.breweryService.updateBrewery(this.brewery);
   }
 }

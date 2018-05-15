@@ -18,8 +18,7 @@ export class AdminComponent implements OnInit {
   }
 
   newBrewery(name, address, city, state, zip) {
-    let beer: Beer = new Beer("", "", "", 0, 0, 0, "", "");
-    let beerList: Beer[] = [beer];
+    let beerList: string[] = ["no beers yet"];
     let newBrewery: Brewery = new Brewery(name, beerList, city, state, address, zip);
     this.breweryService.saveBrewery(newBrewery);
   }

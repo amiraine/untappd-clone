@@ -3,15 +3,15 @@
 
   </div>
   <div class="col-md-7">
-    <div *ngFor="let post of currentUser.postList">
+    <!-- <div *ngFor="let post of currentUser?.postList">
       <h4>{{currentUser.name}} is drinking {{post.beerOption.name}} by {{post.beerOption.brewery}} at {{post.location}}</h4>
       <p>{{post.rating}}</p>
       <p>{{post.body}}</p>
       <img *ngFor="let image of post.images" src="{{image}}" alt="picture">
-    </div>
+    </div> -->
   </div>
   <div class="col-md-4">
     <app-user-module></app-user-module>
-    <app-wishlist [currentUser]="currentUser"></app-wishlist>
+    <!-- <app-wishlist [currentUser]="currentUser"></app-wishlist> -->
   </div>
 </div>
