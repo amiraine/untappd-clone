@@ -17,6 +17,7 @@ export class AdminComponent implements OnInit {
 
   newBeer(name, brewery, type, abv, ibu, rating, description, notes) {
     let newBeer: Beer = new Beer (name, brewery, type, abv, ibu, rating, description, notes);
+    console.log(newBeer);
     this.beerService.saveBeer(newBeer);
   }
 }

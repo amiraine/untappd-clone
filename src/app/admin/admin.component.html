@@ -29,6 +29,6 @@
     <label>Tags for Beer:</label>
     <input type="text" #newNotes>
     <br>
-    <button class="btn btn-large" (click)="newBeer(newName, newBrewery, newType, newAbv, newIbu, newRating, newDescription, newNotes); newName.value=''; newBrewery.value=''; newType.value=''; newAbv.value=''; newIbu.value=''; newRating.value=''; newDescription.value=''; newNotes.value=''">Submit New Beer to Master List</button>
+    <button class="btn btn-large" (click)="newBeer(newName.value, newBrewery.value, newType.value, newAbv.value, newIbu.value, newRating.value, newDescription.value, newNotes.value); newName.value=''; newBrewery.value=''; newType.value=''; newAbv.value=''; newIbu.value=''; newRating.value=''; newDescription.value=''; newNotes.value=''">Submit New Beer to Master List</button>
   </form>
 </div>
