@@ -30,13 +30,9 @@ export class BreweryService {
     entryInFirebase.remove();
   }
 
-  addNewBeerToBrewery(breweryId: string, newBeer: Beer) {
-    this.getBreweryById(breweryId).subscribe(dataLastEmittedFromObserver => {
-      this.breweryTarget = dataLastEmittedFromObserver;
-      console.log(this.breweryTarget + "this is the brewery target");
-      console.log(this.breweryTarget.beers + "beers array in target");
-    });
-    this.breweryTarget.beers.push(newBeer);
-  }
+  updateBrewery(brewery){
+   var entryInFirebase = this.getBreweryById(brewery.$key);
+   entryInFirebase.update(brewery);
+ }
 
 }

@@ -30,7 +30,7 @@
   ],
   "brewers": [{
     "name": "Elysian",
-    "beers": [],
+    "beers": [""],
     "city": "Seattle",
     "state": "WA",
     "address": "900 Kruse Way",

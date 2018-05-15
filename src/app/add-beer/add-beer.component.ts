@@ -33,6 +33,7 @@ export class AddBeerComponent implements OnInit {
     let newBeer: Beer = new Beer (name, this.brewery.name, type, abv, ibu, rating, description, notes);
     console.log(newBeer);
     this.beerService.saveBeer(newBeer);
-    this.breweryService.addNewBeerToBrewery(this.breweryId, newBeer);
+    this.brewery.beers.push(newBeer);
+    this.breweryService.updateBrewery(this.brewery);
   }
 }
