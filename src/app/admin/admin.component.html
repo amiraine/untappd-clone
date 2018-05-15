@@ -1,21 +1,29 @@
-<div>
-  <form>
-    <h1>Create new Brewery!</h1>
-    <label>Name of Brewery</label>
-    <input type="text" #newName>
-    <br>
-    <label>Street Address</label>
-    <input type="text" #newAddress>
-    <br>
-    <label>City</label>
-    <input type="text" #newCity>
-    <br>
-    <label>State</label>
-    <input type="text" #newState>
-    <br>
-    <label>Zip Code</label>
-    <input type="number" #newZip>
-    <br>
-    <button class="btn btn-secondary" (click)="newBrewery(newName.value, newAddress.value, newCity.value, newState.value, newZip.value); newName.value=''; newAddress.value=''; newCity.value=''; newState.value=''; newZip.value=''">Submit new Brewery</button>
-  </form>
+<div class="row">
+  <div class="col-md-2">
+
+  </div>
+  <div class="col-md-8">
+    <form class="form-control">
+      <h1>Create new Brewery!</h1>
+      <label>Name of Brewery</label>
+      <input type="text" #newName class="form-control">
+      <br>
+      <label>Street Address</label>
+      <input type="text" #newAddress class="form-control">
+      <br>
+      <label>City</label>
+      <input type="text" #newCity class="form-control">
+      <br>
+      <label>State</label>
+      <input type="text" #newState class="form-control">
+      <br>
+      <label>Zip Code</label>
+      <input type="number" #newZip class="form-control">
+      <br>
+      <button class="btn btn-secondary" (click)="newBrewery(newName.value, newAddress.value, newCity.value, newState.value, newZip.value); newName.value=''; newAddress.value=''; newCity.value=''; newState.value=''; newZip.value=''">Submit new Brewery</button>
+    </form>
+  </div>
+  <div class="col-md-2">
+
+  </div>
 </div>
