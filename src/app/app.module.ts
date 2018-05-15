@@ -4,8 +4,8 @@ import { FormsModule } from '@angular/forms';
 
 import { HttpModule } from '@angular/http';
 import { masterFirebaseConfig } from './api-keys';
-import { AngularFireModule } from 'angularFire2';
-import { AngularFireDatabaseModule } from 'angularFire2/database';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireDatabase, FirebaseObjectObservable } from 'angularfire2/database';
 
 import { AppComponent } from './app.component';

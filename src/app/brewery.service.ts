@@ -4,12 +4,14 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 
 @Injectable()
 export class BreweryService {
-  breweryList: FirebaseListObservable<any[]>;
+  breweryList;
   constructor(private database: AngularFireDatabase) {
       this.breweryList = database.list('brewers');
+      console.log(this.breweryList)
    }
 
   getBrewery() {
+
     return this.breweryList;
   }
 
