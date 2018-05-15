@@ -1,26 +1,26 @@
 <div>
   <h1>Submit a new beer</h1>
-  <form class="" action="index.html" method="post">
+  <form class="form-control" action="index.html" method="post">
     <label>Name of Beer</label>
-    <input type="text" #newName>
+    <input type="text" #newName class="form-control">
     <br>
     <label>Name of Brewery: {{(brewery)?.name}}</label>
     <br>
     <label>Type of Beer (ie: stout, lager, ect.)</label>
-    <input type="text" #newType>
+    <input type="text" #newType class="form-control">
     <br>
     <label>ABV:</label>
-    <input type="number" #newAbv>
+    <input type="number" #newAbv class="form-control">
     <br>
     <label>IBU:</label>
-    <input type="number" #newIbu>
+    <input type="number" #newIbu class="form-control">
     <br>
     <label>Rating of Beer:</label>
-    <input type="number" #newRating>
+    <input type="number" #newRating class="form-control">
     <br>
     <label>Description of Beer:</label>
     <br>
-    <textarea rows="3" cols="80" #newDescription></textarea>
+    <textarea rows="3" cols="80" #newDescription class="form-control"></textarea>
     <br>
     <label>Tags for Beer:</label>
     <input type="text" #newNotes>
