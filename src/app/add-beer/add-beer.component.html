@@ -4,8 +4,7 @@
     <label>Name of Beer</label>
     <input type="text" #newName>
     <br>
-    <label>Name of Brewery</label>
-    <input type="text" #newBrewery>
+    <label>Name of Brewery: {{(brewery | async)?.name}}</label>
     <br>
     <label>Type of Beer (ie: stout, lager, ect.)</label>
     <input type="text" #newType>
@@ -26,6 +25,6 @@
     <label>Tags for Beer:</label>
     <input type="text" #newNotes>
     <br>
-    <button class="btn btn-large" (click)="newBeer(newName.value, newBrewery.value, newType.value, newAbv.value, newIbu.value, newRating.value, newDescription.value, newNotes.value); newName.value=''; newBrewery.value=''; newType.value=''; newAbv.value=''; newIbu.value=''; newRating.value=''; newDescription.value=''; newNotes.value=''">Submit New Beer to Master List</button>
+    <button class="btn btn-large" (click)="newBeer(newName.value, newType.value, newAbv.value, newIbu.value, newRating.value, newDescription.value, newNotes.value); newName.value=''; newBrewery.value=''; newType.value=''; newAbv.value=''; newIbu.value=''; newRating.value=''; newDescription.value=''; newNotes.value=''">Submit New Beer to Master List</button>
   </form>
 </div>
