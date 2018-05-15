@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+/* imported assets */
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+/* HTML TAG STYLES*/
+html{
+  background-color: #dddddd;
+}
+body{
+  background-color: #dddddd!important;
+}
+a:hover{
+  color: #eeeeee!important;
+  cursor: crosshair;
+}
+img {
+  display: block;
+  float: left;
+  height: 50px;
+}
+/* CLASS STYLES*/
+.logo{
+  font-family: 'Bungee Inline', sans-serif;
+  font-size: 36px!important;
+}
+.bg-dark{
+  background-color: #40e0d0!important;
+}
+.nav-link{
+  color: #262626!important;
+}
+.container-fluid{
+  margin-top: 5vh;
+  height: 100vh;
+}
