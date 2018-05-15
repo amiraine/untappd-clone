@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { BEERS } from '../mock-beers';
 import { Beer } from '../models/beer.model';
 import {SearchPipe} from '../search.pipe';
@@ -13,13 +13,12 @@ import { Router } from '@angular/router';
   providers: [BeerService]
 })
 export class WishlistComponent implements OnInit {
-  beerList;
+  @Input() currentUser;
+
   constructor(private beerService: BeerService) { }
 
   ngOnInit() {
-    this.beerService.getBeers().subscribe(dataLastEmittedFromObserver => {
-     this.beerList = dataLastEmittedFromObserver;
-   })
+    
   }
 
 }
