@@ -17,6 +17,7 @@ import { Router } from '@angular/router';
 export class BreweryPageComponent implements OnInit {
   selectedBrewery;
   breweryId;
+  admin: boolean = false;
 
   constructor(private breweryService: BreweryService, private location: Location, private router: ActivatedRoute, private routes: Router ) { }
 
@@ -32,6 +33,14 @@ export class BreweryPageComponent implements OnInit {
   goToBeer(beer) {
      this.routes.navigate(['beerDetail', beer.$key]);
    };
+
+  showAdmin() {
+    this.admin = true;
+  }
+
+  hideAdmin() {
+    this.admin = false;
+  }
 
 
 }

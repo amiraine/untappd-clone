@@ -1,34 +1,3 @@
 <p>
   admin works!
 </p>
-<div>
-  <h1>Submit a new beer</h1>
-  <form class="" action="index.html" method="post">
-    <label>Name of Beer</label>
-    <input type="text" #newName>
-    <br>
-    <label>Name of Brewery</label>
-    <input type="text" #newBrewery>
-    <br>
-    <label>Type of Beer (ie: stout, lager, ect.)</label>
-    <input type="text" #newType>
-    <br>
-    <label>ABV:</label>
-    <input type="number" #newAbv>
-    <br>
-    <label>IBU:</label>
-    <input type="number" #newIbu>
-    <br>
-    <label>Rating of Beer:</label>
-    <input type="number" #newRating>
-    <br>
-    <label>Description of Beer:</label>
-    <br>
-    <textarea rows="3" cols="80" #newDescription></textarea>
-    <br>
-    <label>Tags for Beer:</label>
-    <input type="text" #newNotes>
-    <br>
-    <button class="btn btn-large" (click)="newBeer(newName.value, newBrewery.value, newType.value, newAbv.value, newIbu.value, newRating.value, newDescription.value, newNotes.value); newName.value=''; newBrewery.value=''; newType.value=''; newAbv.value=''; newIbu.value=''; newRating.value=''; newDescription.value=''; newNotes.value=''">Submit New Beer to Master List</button>
-  </form>
-</div>
