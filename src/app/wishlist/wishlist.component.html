@@ -5,7 +5,7 @@
   </div>
   <div class="panel-body">
     <ul>
-      <li *ngFor="let beer of currentUser.wishList" (click)="goToBeer(beer)">{{beer}}</li>
+      <li *ngFor="let beer of currentUser?.wishlist" (click)="goToBeer(beer)">{{beer}}</li>
     </ul>
   </div>
 </div>
