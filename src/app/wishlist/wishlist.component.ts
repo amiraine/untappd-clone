@@ -14,12 +14,25 @@ import { Router } from '@angular/router';
 })
 export class WishlistComponent implements OnInit {
   @Input() currentUser;
+  beerList;
 
-  constructor(private beerService: BeerService) { }
+  constructor(private beerService: BeerService, private router: Router) { }
 
   ngOnInit() {
-
+    this.beerService.getBeers().subscribe(dataLastEmittedFromObserver => {
+     this.beerList = dataLastEmittedFromObserver;
+   })
 
   }
+
+  goToBeer(beer) {
+    let selectedBeer;
+    this.beerList.forEach((item) => {
+      if(item.name === beer.name){
+        selectedBeer=item;
+      }
+    })
+     this.router.navigate(['beerDetail', selectedBeer.$key]);
+   };
 
 }

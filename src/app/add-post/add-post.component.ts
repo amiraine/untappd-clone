@@ -12,16 +12,14 @@ import { UserService } from '../user.service';
 export class AddPostComponent implements OnInit {
   @Input() add: boolean;
   @Input() selectedBeer;
+  @Input() currentUser;
   @Output() endAdd = new EventEmitter();
 
-  currentUser;
 
   constructor(private postService: PostService, private userService: UserService) { }
 
   ngOnInit() {
-    this.userService.getUserById('0').subscribe(dataLastEmittedFromObserver => {
-     this.currentUser = dataLastEmittedFromObserver;
-   })
+    
   }
 
   addPost(rating, body, images, location) {
