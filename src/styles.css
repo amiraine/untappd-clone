@@ -1,9 +1,7 @@
 /* imported assets */
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
 /* HTML TAG STYLES*/
-html{
-  background-color: #dddddd;
-}
+
 body{
   background-color: #dddddd!important;
 }
@@ -30,4 +28,9 @@ img {
 .container-fluid{
   margin-top: 5vh;
   height: 100vh;
+}
+.panel{
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
 }
