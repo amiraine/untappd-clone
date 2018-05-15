@@ -20,7 +20,6 @@ export class BarListComponent implements OnInit {
     this.breweryService.getBrewery().subscribe(dataLastEmittedFromObserver => {
      this.breweryList = dataLastEmittedFromObserver;
    })
-   console.log(this.breweryList)
   }
 
   goToBrewery(brewery) {
