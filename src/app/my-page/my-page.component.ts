@@ -13,7 +13,7 @@ export class MyPageComponent implements OnInit {
   userList;
   currentUser;
   postList;
-  userPostList;
+  userPostList: Array<object> = new Array();
   beerList;
   constructor(private userService: UserService, private postService: PostService, private beerService: BeerService) { }
 
@@ -21,23 +21,25 @@ export class MyPageComponent implements OnInit {
     this.userService.getUsers().subscribe(dataLastEmittedFromObserver => {
       this.userList = dataLastEmittedFromObserver;
       this.currentUser= this.userList[0];
-    })
-    this.postService.getPosts().subscribe(dataLastEmittedFromObserver => {
-      this.postList = dataLastEmittedFromObserver;
-    })
-    this.currentUser.postList.forEach((beerName) => {
-      this.postList.forEach((post) => {
-        if(post.beerOption === beerName){
-          this.userPostList.push(post);
-        }
+      this.postService.getPosts().subscribe(dataLastEmittedFromObserver => {
+        this.postList = dataLastEmittedFromObserver;
+        this.postList.forEach((post) => {
+          if(post.postedBy === this.currentUser.name){
+            this.userPostList.push(post);
+          }
+        })
       })
+    })
+    this.beerService.getBeers().subscribe(dataLastEmittedFromObserver => {
+      this.beerList = dataLastEmittedFromObserver;
     })
   }
 
-  getBeer(post) {
+  getBrewery(post) {
     this.beerList.forEach((beer) => {
       if(post.beerOption === beer.name){
-        return beer;
+        console.log(beer.brewery);
+        return beer.brewery;
       }
     })
   }
