@@ -19,6 +19,7 @@ export class BeerService {
 
   saveBeer(newBeer: Beer) {
     this.beerList.push(newBeer);
+    return this.beerList;
   }
 
   deleteBeer(outBeer) {
