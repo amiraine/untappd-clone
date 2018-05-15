@@ -44,11 +44,8 @@ export const firebaseConfig = {
     BarListComponent,
     AdminComponent,
     BeerDetailComponent,
-<<<<<<< HEAD
     AddBeerComponent,
-=======
     AddPostComponent,
->>>>>>> working
     // SearchPipe
   ],
   imports: [
