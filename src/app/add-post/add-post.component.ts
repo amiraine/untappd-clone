@@ -19,7 +19,7 @@ export class AddPostComponent implements OnInit {
   constructor(private postService: PostService, private userService: UserService) { }
 
   ngOnInit() {
-    
+
   }
 
   addPost(rating, body, images, location) {
@@ -28,6 +28,12 @@ export class AddPostComponent implements OnInit {
     this.postService.savePost(newPost);
     this.currentUser.postList.push(newPost.beerOption);
     this.currentUser.beersDrank.push(this.selectedBeer.name);
+    this.currentUser.wishlist.forEach((beer) => {
+      if(beer === this.selectedBeer.name){
+        let index = this.currentUser.wishlist.indexOf(beer);
+        this.currentUser.wishlist.splice(index, 1);
+      }
+    })
     this.userService.updateUser(this.currentUser);
     this.endAdd.emit();
 
