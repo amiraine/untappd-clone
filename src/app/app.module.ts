@@ -19,6 +19,7 @@ import { DiscoverComponent } from './discover/discover.component';
 import { BarListComponent } from './bar-list/bar-list.component';
 
 import { routing } from './app.routing';
+import { BeerDetailComponent } from './beer-detail/beer-detail.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -38,6 +39,7 @@ export const firebaseConfig = {
     MyPageComponent,
     DiscoverComponent,
     BarListComponent,
+    BeerDetailComponent,
     // SearchPipe
   ],
   imports: [
