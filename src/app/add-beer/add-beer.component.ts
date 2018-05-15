@@ -27,7 +27,7 @@ export class AddBeerComponent implements OnInit {
   }
 
   newBeer(name, type, abv, ibu, rating, description, notes) {
-    let breweryName = this.brewery.name;
+    let breweryName = "";
     let newBeer: Beer = new Beer (name, breweryName, type, abv, ibu, rating, description, notes);
     console.log(newBeer);
     this.beerService.saveBeer(newBeer);
