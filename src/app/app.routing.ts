@@ -3,6 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { MyPageComponent } from './my-page/my-page.component';
 import { DiscoverComponent } from './discover/discover.component';
+import { AdminComponent } from './admin/admin.component';
+
 
 const appRoutes: Routes = [
   {
@@ -16,6 +18,10 @@ const appRoutes: Routes = [
   {
     path: 'discover',
     component: DiscoverComponent
+  },
+  {
+    path: 'admin',
+    component: AdminComponent
   }
 ];
 
