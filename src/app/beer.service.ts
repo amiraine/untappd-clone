@@ -6,7 +6,7 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 export class BeerService {
   beerList: FirebaseListObservable<any[]>;
   constructor(private database: AngularFireDatabase) {
-      this.beerList = database.list('beers');
+      this.beerList = this.database.list('beers');
    }
 
   getBeers() {
@@ -19,6 +19,7 @@ export class BeerService {
 
   saveBeer(newBeer: Beer) {
     this.beerList.push(newBeer);
+    return this.beerList;
   }
 
   deleteBeer(outBeer) {

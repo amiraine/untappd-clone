@@ -3,8 +3,10 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { MyPageComponent } from './my-page/my-page.component';
 import { DiscoverComponent } from './discover/discover.component';
+import { AdminComponent } from './admin/admin.component';
 import { BreweryPageComponent } from './brewery-page/brewery-page.component';
 import { BeerDetailComponent } from './beer-detail/beer-detail.component';
+
 
 const appRoutes: Routes = [
   {
@@ -18,6 +20,10 @@ const appRoutes: Routes = [
   {
     path: 'discover',
     component: DiscoverComponent
+  },
+  {
+    path: 'admin',
+    component: AdminComponent
   },
   {
     path: 'brewery/:id',
