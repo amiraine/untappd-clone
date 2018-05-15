@@ -1,3 +1,7 @@
-<p>
-  beer-detail works!
-</p>
+<h3>{{selectedBeer?.name}} by {{selectedBeer?.brewery}}</h3>
+<hr>
+<p>ABv: {{selectedBeer?.abv}}  IBU: {{selectedBeer?.ibu}}
+This beer is a {{selectedBeer?.type}} that tastes {{selectedBeer?.notes}}.
+{{selectedBeer?.description}}</p>
+<button (click)="makePost()">Post Beer</button>
+<!-- <app-add-post [add]="add"></app-add-post> -->

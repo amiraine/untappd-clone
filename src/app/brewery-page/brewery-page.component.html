@@ -5,3 +5,4 @@
 <ul>
   <li *ngFor="let beer of selectedBrewery.beers" (click="goToBeer(beer)")>{{beer.name}}</li>
 </ul>
+<button (click="addBeer()")>Add Beer</button>

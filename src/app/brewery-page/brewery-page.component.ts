@@ -33,4 +33,8 @@ export class BreweryPageComponent implements OnInit {
      this.routes.navigate(['beerDetail', beer.$key]);
    };
 
+  addBeer(){
+    
+  }
+
 }
