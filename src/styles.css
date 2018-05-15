@@ -1,5 +1,6 @@
 /* imported assets */
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url("https://fonts.googleapis.com/css?family=Bungee+Inline|Roboto")
 /* HTML TAG STYLES*/
 *{
   padding: 0px;
@@ -20,17 +21,23 @@ img#user-icon{
   max-width: 50px;
   float: left;
 }
+ul{
+  list-style-type: none;
+}
 /* CLASS STYLES*/
 .logo{
-  font-family: 'Bungee Inline', sans-serif;
-  font-size: 36px!important;
+  font-family: 'Bungee Inline', sans-serif!important;
+  font-size: 40px!important;
 }
 .bg-dark{
   background-color: #40e0d0!important;
 }
 .nav-link{
   color: #262626!important;
-  height: 82px!important;
+  font-family: "Roboto", sans-serif;
+  position: relative!important;
+  display: block!important;
+  float: left;
 }
 .container-fluid{
   margin-top: 5vh;
@@ -40,7 +47,4 @@ img#user-icon{
   background-color: white;
   padding: 10px;
   border-radius: 5px;
-}
-ul{
-  list-style-type: none;
 }
