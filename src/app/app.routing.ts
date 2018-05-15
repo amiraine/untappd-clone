@@ -4,6 +4,8 @@ import { HomeComponent } from './home/home.component';
 import { MyPageComponent } from './my-page/my-page.component';
 import { DiscoverComponent } from './discover/discover.component';
 import { AdminComponent } from './admin/admin.component';
+import { BreweryPageComponent } from './brewery-page/brewery-page.component';
+import { BeerDetailComponent } from './beer-detail/beer-detail.component';
 
 
 const appRoutes: Routes = [
@@ -22,6 +24,14 @@ const appRoutes: Routes = [
   {
     path: 'admin',
     component: AdminComponent
+  },
+  {
+    path: 'brewery/:id',
+    component: BreweryPageComponent
+  },
+  {
+    path: 'beerDetail/:id',
+    component: BeerDetailComponent
   }
 ];
 
