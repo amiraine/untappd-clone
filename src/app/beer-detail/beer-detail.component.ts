@@ -39,7 +39,8 @@ export class BeerDetailComponent implements OnInit {
   }
 
   addToWish() {
-
+    this.currentUser.wishlist.push(this.selectedBeer.name);
+    this.userService.updateUser(this.currentUser);
   }
 
 
