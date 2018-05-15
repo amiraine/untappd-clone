@@ -3,7 +3,7 @@
 <p>{{selectedBrewery?.city}}, {{selectedBrewery?.state}} {{selectedBrewery?.zip}}</p>
 
 <ul>
-  <li *ngFor="let beer of selectedBrewery.beers" (click="goToBeer(beer)")>{{beer.name}}</li>
+  <li *ngFor="let beer of selectedBrewery.beers" (click)="goToBeer(beer)">{{beer.name}}</li>
 </ul>
 <button (click)="showAdmin()">Add New Beer</button>
 <div *ngIf="admin">
