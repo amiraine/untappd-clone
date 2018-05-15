@@ -22,14 +22,17 @@ export class AddBeerComponent implements OnInit {
       this.breweryId = parseInt(urlParameters['id']);
       console.log(this.breweryId + " brewery id");
     });
-    this.brewery = this.breweryService.getBreweryById(this.breweryId);
-    console.log(this.brewery + " wtf is this?");
+    this.breweryService.getBreweryById(this.breweryId).subscribe(dataLastEmittedFromObserver => {
+      this.brewery = dataLastEmittedFromObserver;
+      console.log(this.brewery + "meh");
+    });
   }
 
   newBeer(name, type, abv, ibu, rating, description, notes) {
     let breweryName = "";
-    let newBeer: Beer = new Beer (name, breweryName, type, abv, ibu, rating, description, notes);
+    let newBeer: Beer = new Beer (name, this.brewery.name, type, abv, ibu, rating, description, notes);
     console.log(newBeer);
     this.beerService.saveBeer(newBeer);
+    this.breweryService.addNewBeerToBrewery(this.breweryId, newBeer);
   }
 }
