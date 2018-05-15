@@ -17,6 +17,11 @@ export class UserService {
     return this.database.object('users/' + userId);
   }
 
+  updateUser(user){
+   var entryInFirebase = this.getUserById(user.$key);
+   entryInFirebase.update(user);
+ }
+
   saveUser(newUser: User) {
     this.userList.push(newUser);
   }

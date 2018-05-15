@@ -1,0 +1,12 @@
+<div *ngIf="add">
+  <h3>Add Post</h3>
+  <label>How would you rate {{selectedBeer.name}}</label>
+  <input #newRating>
+  <label>What do you want to say about {{selectedBeer.name}}</label>
+  <input #newBody>
+  <label>Please add any image URLs separated by commas</label>
+  <input #newImages>
+  <label>Where are you drinking {{selectedBeer.name}}</label>
+  <input #newLocation>
+  <button (click)="addPost(newRating.value, newBody.value, newImages.value, newLocation.value)"></button>
+</div>
