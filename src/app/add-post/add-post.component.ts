@@ -14,19 +14,23 @@ export class AddPostComponent implements OnInit {
   @Input() selectedBeer;
   @Input() currentUser;
   @Output() endAdd = new EventEmitter();
+  newPost: Post;
 
 
   constructor(private postService: PostService, private userService: UserService) { }
 
   ngOnInit() {
-
+    this.newPost = new Post(this.currentUser.name, "", [""], this.selectedBeer.name, "", 0, this.selectedBeer.brewery)
   }
 
-  addPost(rating, body, images, location) {
+  createPost(body, images, location) {
     let imagesArray = images.split(",");
-    let newPost = new Post(this.currentUser.name, body, imagesArray, this.selectedBeer.name, location, rating, this.selectedBeer.brewery);
-    this.postService.savePost(newPost);
-    this.currentUser.postList.push(newPost.beerOption);
+    this.newPost.body = body;
+    this.newPost.images = imagesArray;
+    this.newPost.location = location;
+    console.log(this.newPost.rating);
+    this.postService.savePost(this.newPost);
+    this.currentUser.postList.push(this.newPost.beerOption);
     this.currentUser.beersDrank.push(this.selectedBeer.name);
     this.currentUser.wishlist.forEach((beer) => {
       if(beer === this.selectedBeer.name){

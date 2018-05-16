@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { BEERS } from '../mock-beers';
 import { Beer } from '../models/beer.model';
 import {SearchPipe} from '../search.pipe';
 import { BeerService } from '../beer.service';
