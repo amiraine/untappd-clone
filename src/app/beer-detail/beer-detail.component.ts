@@ -21,7 +21,8 @@ export class BeerDetailComponent implements OnInit {
   currentUser;
   drank = true;
   wish = true;
-
+  pictures;
+  
   constructor(private beerService: BeerService, private location: Location, private router: ActivatedRoute, private routes: Router, private userService: UserService) { }
 
   ngOnInit() {

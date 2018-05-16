@@ -6,6 +6,9 @@
     <h3>{{selectedBeer?.name}} by {{selectedBeer?.brewery}}</h3>
     <hr>
     <h4>ABV: {{selectedBeer?.abv}} &#8226; IBU: {{selectedBeer?.ibu}} &#8226; Type: {{selectedBeer?.type}}</h4>
+    <div class="row picture-row">
+      <img src="{{selectedBeer?.photo}}" alt="Beer picture">
+    </div>
     <p>{{selectedBeer?.description}}</p>
     <div *ngIf="drank">
       <button (click)="makePost()" class="btn btn-secondary">I drank this beer</button>
