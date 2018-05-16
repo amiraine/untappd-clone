@@ -15,9 +15,9 @@
     <label>IBU:</label>
     <input type="number" #newIbu class="form-control">
     <br>
-    <label>Rating of Beer:</label>
+    <!-- <label>Rating of Beer:</label>
     <input type="number" #newRating class="form-control">
-    <br>
+    <br> -->
     <label>Description of Beer:</label>
     <br>
     <textarea rows="3" cols="80" #newDescription class="form-control"></textarea>
@@ -25,6 +25,6 @@
     <label>Tags for Beer:</label>
     <input type="text" #newNotes>
     <br>
-    <button class="btn btn-large btn-secondary" (click)="newBeer(newName.value, newType.value, newAbv.value, newIbu.value, newRating.value, newDescription.value, newNotes.value); newName.value=''; newType.value=''; newAbv.value=''; newIbu.value=''; newRating.value=''; newDescription.value=''; newNotes.value=''">Submit New Beer to Master List</button>
+    <button class="btn btn-large btn-secondary" (click)="newBeer(newName.value, newType.value, newAbv.value, newIbu.value, newDescription.value, newNotes.value); newName.value=''; newType.value=''; newAbv.value=''; newIbu.value=''; newDescription.value=''; newNotes.value=''">Submit New Beer to Master List</button>
   </form>
 </div>

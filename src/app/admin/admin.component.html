@@ -19,8 +19,9 @@
       <br>
       <label>Zip Code</label>
       <input type="number" #newZip class="form-control">
-      <br>
-      <button class="btn btn-secondary" (click)="newBrewery(newName.value, newAddress.value, newCity.value, newState.value, newZip.value); newName.value=''; newAddress.value=''; newCity.value=''; newState.value=''; newZip.value=''">Submit new Brewery</button>
+      <br><label>Describe your brewery:</label>
+      <br><textarea #newDescription rows="4" cols="80" placeholder="Speak your mind!" class="form-control"></textarea>
+      <button class="btn btn-secondary" (click)="newBrewery(newName.value, newAddress.value, newCity.value, newState.value, newZip.value, newDescription.value); newName.value=''; newAddress.value=''; newCity.value=''; newState.value=''; newZip.value=''">Submit new Brewery</button>
     </form>
   </div>
   <div class="col-md-2">

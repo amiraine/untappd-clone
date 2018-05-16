@@ -26,8 +26,8 @@ export class AddBeerComponent implements OnInit {
     });
   }
 
-  newBeer(name, type, abv, ibu, rating, description, notes) {
-    let newBeer: Beer = new Beer (name, this.brewery.name, type, abv, ibu, rating, description, notes);
+  newBeer(name, type, abv, ibu, description, notes) {
+    let newBeer: Beer = new Beer (name, this.brewery.name, type, abv, ibu, 0, description, notes);
     this.beerService.saveBeer(newBeer);
     this.brewery.beers.push(name);
     this.brewery.beers.forEach((beer) =>{

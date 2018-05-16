@@ -21,9 +21,9 @@ export class AdminComponent implements OnInit {
   ngOnInit() {
   }
 
-  newBrewery(name, address, city, state, zip) {
+  newBrewery(name, address, city, state, zip, description) {
     let beerList: string[] = ["no beers yet"];
-    let newBrewery: Brewery = new Brewery(name, beerList, city, state, address, zip);
+    let newBrewery: Brewery = new Brewery(name, beerList, city, state, address, zip, description);
     this.breweryService.saveBrewery(newBrewery);
     this.breweryService.getBrewery().subscribe((dataLastEmitted) => {
       this.breweryList=dataLastEmitted;
