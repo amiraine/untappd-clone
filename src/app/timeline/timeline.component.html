@@ -1,8 +1,6 @@
-<div class="panel">
-  <div class="post" *ngFor="let post of postList">
-    <h5><span class="emphasis">{{post.postedBy}}</span> is drinking <span class="emphasis">{{post.beerOption}}</span> by <span class="emphasis">{{post.brewery}}</span> at <span class="emphasis">{{post.location}}</span></h5>
-    <p class="emphasis">Rating: {{post.rating}} out of 5</p>
-    <p class="emphasis">{{post.body}}</p>
-    <!-- <img *ngFor="let image of post.images" src="{{image}}" alt="picture"> -->
-  </div>
+<div class="post panel" *ngFor="let post of postList">
+  <h5><span class="emphasis">{{post.postedBy}}</span> is drinking <span class="emphasis">{{post.beerOption}}</span> by <span class="emphasis">{{post.brewery}}</span> at <span class="emphasis">{{post.location}}</span></h5>
+  <p class="emphasis">Rating: {{post.rating}} out of 5</p>
+  <p class="emphasis">{{post.body}}</p>
+  <!-- <img *ngFor="let image of post.images" src="{{image}}" alt="picture"> -->
 </div>
