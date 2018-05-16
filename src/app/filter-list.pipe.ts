@@ -1,5 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { BreweryService } from './brewery.service';
+import { BeerService } from './beer.service';
 
 @Pipe ({
   name: 'filter',
@@ -7,14 +8,17 @@ import { BreweryService } from './brewery.service';
 })
 
 export class FilterListPipe implements PipeTransform {
-  breweryList;
   transform(items: any[],parameter:string):any {
-    if(!items) return [];
-    if(!parameter) return items;
+    if(!parameter) {
+      return items;
+    }
+    let beers = [];
     for(var i = 0; i<items.length; i++){
-      if(items[i] === parameter){
-        return items[i];
+      if(items[i].brewery === parameter){
+        beers.push(items[i]);
+
       }
     }
+    return beers;
   }
 }
