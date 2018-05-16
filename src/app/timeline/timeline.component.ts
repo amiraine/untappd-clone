@@ -19,6 +19,7 @@ export class TimelineComponent implements OnInit {
   ngOnInit() {
     this.postService.getPosts().subscribe(dataLastEmittedFromObserver => {
       this.postList = dataLastEmittedFromObserver;
+      this.postList.sort(function(a,b) {return (a.date > b.date) ? 1 : ((b.date > a.date) ? -1 : 0);} );
     })
   }
 
