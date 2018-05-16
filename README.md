@@ -11,38 +11,18 @@ _Authored by Cameron Button, Ami Cooper, Kayl Eubanks, and Kristen Chellis_
 
 ## Set up and installation
 
-  * Follow this link
-  * or
-  * set up stuff....
+  * Follow this link https://untappd-clone.firebaseapp.com/
 
 
 ## User Stories
 
-  * A user can search for breweries and see a list of beers/ ciders/ wines
+  * A user can search for breweries and see a list of beers
   * User can post about beers they are currently drinking
   * Breweries can make a list of their beers
-  * User can "like" beers or breweries
 
   ![A user interface picture](src/assets/img/usermock.png)
 
   ![A user interface picture](src/assets/img/brewerymock.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Development server
 
@@ -67,3 +47,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+*MIT License
