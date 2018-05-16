@@ -43,5 +43,7 @@ export class MyPageComponent implements OnInit {
       }
     })
   }
-
+  writePost(){
+    
+  }
 }

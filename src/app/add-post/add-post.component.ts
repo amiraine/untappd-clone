@@ -2,6 +2,9 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Post } from '../models/post.model';
 import { PostService } from '../post.service';
 import { UserService } from '../user.service';
+import { Brewery } from '../models/brewery.model';
+import { BreweryService } from '../brewery.service';
+import { FirebaseObjectObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-add-post',
@@ -14,12 +17,14 @@ export class AddPostComponent implements OnInit {
   @Input() selectedBeer;
   @Input() currentUser;
   @Output() endAdd = new EventEmitter();
+  breweryList;
 
-
-  constructor(private postService: PostService, private userService: UserService) { }
+  constructor(private postService: PostService, private userService: UserService, private breweryService: BreweryService) { }
 
   ngOnInit() {
-
+    this.breweryService.getBrewery().subsubscribe(dataLastEmittedFromObserver => {
+      this.breweryList = dataLastEmittedFromObserver;
+    })
   }
 
   addPost(rating, body, images, location) {

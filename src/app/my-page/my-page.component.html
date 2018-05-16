@@ -1,8 +1,18 @@
+
 <div class="row">
   <div class="col-md-1">
-
+<!--  -->
   </div>
   <div class="col-md-7 panel">
+    <div class="form">
+      <h4>What are you drinking?</h4>
+      <form class="form-control">
+        <select class="form-control" name="brewery" [(ngModel)]="">
+          <option *ngFor="let brewery of breweryList" [value]="brewery.name">{{brewery.name}}</option>
+        </select>
+        <button class="btn btn-info">Post</button>
+      </form>
+    </div>
     <div *ngFor="let post of userPostList">
       <h4>{{currentUser.name}} is drinking {{post.beerOption}} by {{post.brewery}} at {{post.location}}</h4>
       <p>Rating: {{post.rating}} out of 5</p>
