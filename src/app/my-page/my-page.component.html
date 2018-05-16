@@ -2,7 +2,7 @@
   <div class="col-md-1">
     <!-- EMPTY -->
   </div>
-  <div class="col-md-6 panel">
+  <div class="col-md-6">
     <div class="form-control" id="user-post">
       <h4>What are you drinking?</h4>
       <div class="form-row">
@@ -48,19 +48,31 @@
       <br><input #newLocation class="form-control" placeholder="Watering hole!">
       <br><button class="btn btn-light" (click)="createPost(newBody.value, newLocation.value)">Post</button>
     </div>
-    <div *ngFor="let post of userPostList">
-      <h4>{{currentUser.name}} is drinking {{post.beerOption}} by {{post.brewery}} at {{post.location}}</h4>
-      <p>Rating: {{post.rating}} out of 5</p>
-      <p>{{post.body}}</p>
+  </div>
+  <div class="col-md-4">
+    <app-user-module></app-user-module>
+    <app-wishlist [currentUser]="currentUser"></app-wishlist>
+  </div>
+  <div class="col-md-1">
+    <!--  -->
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-1">
+    <!-- empty -->
+  </div>
+  <div class="col-md-6">
+    <div class="post" *ngFor="let post of userPostList">
+      <h5><span class="emphasis">{{currentUser.name}}</span> is drinking <span class="emphasis">{{post.beerOption}}</span> by <span class="emphasis">{{post.brewery}}</span> at <span class="emphasis">{{post.location}}</span></h5>
+      <p class="emphasis">Rating: {{post.rating}} out of 5</p>
+      <p class="emphasis">{{post.body}}</p>
       <!-- <img *ngFor="let image of post.images" src="{{image}}" alt="picture"> -->
-      <button (click)="editPost(post)">Edit Post</button>
+      <button class="btn btn-outline-info" (click)="editPost(post)">Edit Post</button>
       <app-edit-post *ngIf="selectedPost === post" [selectedPost]="selectedPost" (endEdit)="endEdit()"></app-edit-post>
     </div>
-    <div class="col-md-4">
-      <app-user-module></app-user-module>
-      <app-wishlist [currentUser]="currentUser"></app-wishlist>
-    </div>
-    <div class="col-md-1">
-      <!--  -->
-    </div>
+
+  </div>
+  <div class="col-md-5">
+    <!-- empty -->
+  </div>
 </div>
