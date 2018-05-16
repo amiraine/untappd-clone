@@ -1,10 +1,10 @@
 <div class="panel">
   <h3>{{selectedBeer?.name}} by {{selectedBeer?.brewery}}</h3>
   <hr>
-  <p>ABv: {{selectedBeer?.abv}}  IBU: {{selectedBeer?.ibu}}
-    This beer is a {{selectedBeer?.type}} that tastes {{selectedBeer?.notes}}.
+  <h4>ABv: {{selectedBeer?.abv}} &#8226; IBU: {{selectedBeer?.ibu}}</h4>
+    <p>This beer is a {{selectedBeer?.type}} that has {{selectedBeer?.notes}} notes.
     {{selectedBeer?.description}}</p>
-    <button (click)="makePost()">I drank this beer</button>
-    <button (click)="addToWish()">I want to drink this beer</button>
+    <button (click)="makePost()" class="btn btn-secondary">I drank this beer</button>
+    <button (click)="addToWish()" class="btn btn-secondary">I want to drink this beer</button>
     <app-add-post [add]="add" [selectedBeer]="selectedBeer" [currentUser]="currentUser" (endAdd)=endAdd()></app-add-post>
 </div>

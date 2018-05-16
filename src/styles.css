@@ -1,6 +1,6 @@
 /* imported assets */
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
-@import url("https://fonts.googleapis.com/css?family=Bungee+Inline|Roboto")
+@import url("https://fonts.googleapis.com/css?family=Bungee+Inline|Roboto");
 /* HTML TAG STYLES*/
 *{
   padding: 0px;
@@ -23,6 +23,13 @@ img#user-icon{
 }
 ul{
   list-style-type: none;
+}
+nav{
+  border-bottom: solid 4px #00868b;
+}
+textarea{
+  resize: none;
+  width: inherit;
 }
 /* CLASS STYLES*/
 .logo{
