@@ -6,7 +6,7 @@
   padding: 0px;
 }
 body{
-  background-color: #dddddd!important;
+  background-color: #edfffd!important;
 }
 a:hover{
   color: #eeeeee!important;
@@ -15,7 +15,7 @@ a.nav-link{
   padding-top: 20px!important;
 }
 img {
-  max-width: 700px;
+  max-width: inherit;
 }
 img#user-icon{
   max-width: 50px;
@@ -23,6 +23,13 @@ img#user-icon{
 }
 ul{
   list-style-type: none;
+}
+li{
+  font-size: 24px;
+}
+li:hover{
+  color: #40e0d0;
+  cursor: crosshair;
 }
 nav{
   border-bottom: solid 4px #00868b;
