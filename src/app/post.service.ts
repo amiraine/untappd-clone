@@ -21,9 +21,14 @@ export class PostService {
     this.postList.push(newPost);
   }
 
-  deleteBeer(outPost) {
+  deletePost(outPost) {
     let entryInFirebase = this.getPostById(outPost.$key);
     entryInFirebase.remove();
   }
+
+  updatePost(post){
+   var entryInFirebase = this.getPostById(post.$key);
+   entryInFirebase.update(post);
+ }
 
 }

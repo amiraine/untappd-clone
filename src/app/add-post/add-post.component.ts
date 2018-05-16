@@ -2,22 +2,27 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Post } from '../models/post.model';
 import { PostService } from '../post.service';
 import { UserService } from '../user.service';
+import { Brewery } from '../models/brewery.model';
+import { BreweryService } from '../brewery.service';
+import { FirebaseObjectObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-add-post',
   templateUrl: './add-post.component.html',
   styleUrls: ['./add-post.component.css'],
-  providers: [PostService, UserService]
+  providers: [PostService, UserService, BreweryService]
 })
 export class AddPostComponent implements OnInit {
   @Input() add: boolean;
   @Input() selectedBeer;
   @Input() currentUser;
   @Output() endAdd = new EventEmitter();
+
   newPost: Post;
+  breweryList;
 
 
-  constructor(private postService: PostService, private userService: UserService) { }
+  constructor(private postService: PostService, private userService: UserService, private breweryService: BreweryService) { }
 
   ngOnInit() {
     this.newPost = new Post(this.currentUser.name, "", [""], this.selectedBeer.name, "", 0, this.selectedBeer.brewery)
