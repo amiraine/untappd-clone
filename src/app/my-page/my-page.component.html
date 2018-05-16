@@ -3,18 +3,26 @@
 <!--  -->
   </div>
   <div class="col-md-7 panel">
-    <div class="form">
+    <form class="form-control" id="user-post">
       <h4>What are you drinking?</h4>
-      <form class="form-control">
-        <select class="form-control" name="brewery" [(ngModel)]="parameter">
-          <option *ngFor="let brewery of breweryList" [value]="brewery.name">{{brewery.name}}</option>
-        </select>
-        <select class="form-control" name="beers">
-          <option *ngFor="let beer of beerList | filter: parameter">{{beer.name}}</option>
-        </select>
-        <button class="btn btn-info">Post</button>
-      </form>
-    </div>
+      <div class="form-row">
+        <div class="col-md-6">
+          <select class="form-control" name="brewery" [(ngModel)]="parameter">
+            <option disabled selected>Which brewery?</option>
+            <option *ngFor="let brewery of breweryList" [value]="brewery.name">{{brewery.name}}</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <select class="form-control" name="beers">
+            <option disabled>Which beer?</option>
+            <option *ngFor="let beer of beerList | filter: parameter">{{beer.name}}</option>
+          </select>
+        </div>
+      </div>
+      <br><input #postContent placeholder="How was it?" class="form-control">
+      <br>
+      <button class="btn btn-light">Post</button>
+    </form>
     <div *ngFor="let post of userPostList">
       <h4>{{currentUser.name}} is drinking {{post.beerOption}} by {{post.brewery}} at {{post.location}}</h4>
       <p>Rating: {{post.rating}} out of 5</p>
