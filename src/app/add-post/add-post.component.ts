@@ -10,7 +10,7 @@ import { FirebaseObjectObservable } from 'angularfire2/database';
   selector: 'app-add-post',
   templateUrl: './add-post.component.html',
   styleUrls: ['./add-post.component.css'],
-  providers: [PostService, UserService]
+  providers: [PostService, UserService, BreweryService]
 })
 export class AddPostComponent implements OnInit {
   @Input() add: boolean;
@@ -22,9 +22,7 @@ export class AddPostComponent implements OnInit {
   constructor(private postService: PostService, private userService: UserService, private breweryService: BreweryService) { }
 
   ngOnInit() {
-    this.breweryService.getBrewery().subsubscribe(dataLastEmittedFromObserver => {
-      this.breweryList = dataLastEmittedFromObserver;
-    })
+
   }
 
   addPost(rating, body, images, location) {
