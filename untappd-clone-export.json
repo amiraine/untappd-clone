@@ -3,79 +3,79 @@
     "0" : {
       "abv" : 6.4,
       "brewery" : "Elysian Brewing",
-      "description" : "this is the description",
+      "description" : "Pours a hazy orange hue. Big fruit on the nose and palate. Orange juice with hop bitterness to balance. Smooth. Refreshing for warm weather.",
       "ibu" : 45,
       "name" : "Superfuzz",
-      "notes" : "this is the notes",
+      "notes" : "orange,grain,pine",
+      "photo" : "http://cdn.chilledmagazine.com/wp-content/uploads/2017/03/SuperfuzzBottle.jpg",
       "rating" : 4.3,
-      "type" : "Blood Orange Pale Ale",
-      "photo": ""
+      "type" : "Blood Orange Pale Ale"
     },
     "1" : {
       "abv" : 6.4,
       "brewery" : "Hop Valley Brewing",
-      "description" : "this is the description",
+      "description" : "This seasonal IPA features 4 different hops with multiple flavors and aromas complimented with the addition of grapefruit peel. It creates a bouquet of citrus, peach and tropical fruits with enough Munich malt to produce a classic burnt orange color.",
       "ibu" : 45,
       "name" : "Citrus Mistress",
-      "notes" : "this is the notes",
+      "notes" : "citrus,peach",
+      "photo" : "https://wine-searcher1.freetls.fastly.net/images/labels/13/45/hop-valley-brewing-co-citrus-mistress-india-pale-ale-beer-oregon-usa-10701345.jpg",
       "rating" : 4.3,
-      "type" : "IPA",
-      "photo": ""
+      "type" : "IPA"
     },
     "2" : {
       "abv" : 6.4,
-      "brewery" : "Dechutes",
-      "description" : "this is the description",
+      "brewery" : "Deschutes Brewery",
+      "description" : " slight hop bitterness up front enhances the distinctive chocolate and roasted finish. It’s prized for its creamy mouthfeel and intense complex flavors.",
       "ibu" : 45,
       "name" : "Black Butte Porter",
-      "notes" : "this is the notes",
+      "notes" : "chocolate",
+      "photo" : "https://www.craftbeerkings.com/shop/pub/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/d/e/deschutes-black-butte-porter.jpg",
       "rating" : 4.3,
-      "type" : "Porter",
-      "photo": ""
+      "type" : "Porter"
     },
     "3" : {
       "abv" : 6.4,
       "brewery" : "Pabst Brewing",
-      "description" : "this is the description",
+      "description" : "Established in Milwaukee in 1844, this is the original Pabst Blue Ribbon beer. Nature’s choicest products provide its prized flavor. Only the finest of hops and grains are used. ",
       "ibu" : 45,
       "name" : "Pabst Blue Ribbon",
-      "notes" : "this is the notes",
+      "notes" : "soapy, grassy",
+      "photo" : "https://pbs.twimg.com/profile_images/1137402834/pbr1_400x400.jpg",
       "rating" : 4.3,
-      "type" : "American Lager",
-      "photo": ""
+      "type" : "American Lager"
     },
     "-LCdcTnyIVd_jbMhxuoA" : {
       "abv" : "8.2",
-      "brewery" : "Elysian",
+      "brewery" : "Elysian Brewing",
       "description" : "A Totally Nebular IPA. Great Western premium two-row, combined with c-15 and Dextri-Pils, give this beer a bright and galactic Milky Way hue. The hopping is pure starglow energy, with Chinook to bitter and late and dry additions of Citra and Amarillo. Space Dust is out of this world, with 62 IBU, and 7.2% ABV.",
       "ibu" : "62",
       "name" : "Space Dust IPA",
-      "notes" : "",
+      "notes" : "citrus,pith",
+      "photo" : "https://i.pinimg.com/originals/38/25/ef/3825ef22cfa0e5218d9c6772933872d4.jpg",
       "rating" : "3.7",
-      "type" : "IPA",
-      "photo": ""
+      "type" : "IPA"
     },
     "-LCdgW2acylDXZi9l0s7" : {
       "abv" : "5.9",
-      "brewery" : "Elysian",
+      "brewery" : "Elysian Brewing",
       "description" : "Night Owl is brewed with over 7 lbs. of pumpkin per barrel and includes seven different malt varieties, green and roasted pumpkin seeds, and pumpkin in the mash, boil and fermenter. Bittered with Magnum hops and spiced in conditioning with nutmeg, clove, cinnamon, ginger and allspice.",
       "ibu" : "0",
       "name" : "Night Owl Pumpkin Ale",
-      "notes" : "",
+      "notes" : "cinnamon, spice",
+      "photo" : "http://www.seattleite.com/wp-content/uploads/2012/11/beer.png",
       "rating" : "3.85",
-      "type" : "Pumpkin Ale",
-      "photo": ""
+      "type" : "Pumpkin Ale"
     },
     "-LCdhiamiXkAuIrXiTJW" : {
       "abv" : "5.6",
-      "brewery" : "Elysian",
+      "brewery" : "Elysian Brewing",
       "description" : "In Seattle, beer and coffee are like siblings, jealously dividing the day. It's a ticklish point as evening approaches, in fact, when the joys of the one give way to the other. And along with other more hard-bitten local industries, they compete for the attentions of a creative and often otherwise-distracted workforce, dividing the hip and tattooed into brewers and roasters, barkeeps and baristas. Split Shot Espresso Milk Stout brings all that together, combining the talents of Elysian Brewing and Stumptown Coffee in a deliciously smooth, very Northwest beer. A complex bill of malts hold it all together--Northwest pale, C-15 and C-45 dextrine malts, Franco-Belges kiln coffee malt, Black, Roasted and Chocolate malts and flaked oats. Magnum hops add a touch of bitterness and milk sugar sweetens just a bit. Cold-infused Stumptown coffee provide an invigorating richness. Split Shot will warm and sustain through spring's cool evenings, and the combination of coffee and stout will definitely keep your attention.",
       "ibu" : "28",
       "name" : "Split Shot",
-      "notes" : "",
+      "notes" : "chocolate, espresso, roasted",
+      "photo" : "https://s-media-cache-ak0.pinimg.com/236x/00/7b/55/007b55eaa0c0ff1363359af7ba9dd0e9--the-park-pub.jpg",
       "rating" : "3.7",
-      "type" : "Espresso Milk Stout",
-      "photo": ""
+      "type" : "Espresso Milk Stout"
     },
     "-LCdjObmThIng6rkSYts" : {
       "abv" : "6.7",
@@ -83,10 +83,10 @@
       "description" : "You can run, but you can't hide from the hops in this true Northwest IPA brewed by Hop Lovers for Hop Lovers.",
       "ibu" : "90",
       "name" : "Alphadelic",
-      "notes" : "",
+      "notes" : "grapefruit",
+      "photo" : "http://draftmag.com/file/beers/Hop-Valley_Alphadelic-IPA_2014.jpg",
       "rating" : "3.74",
-      "type" : "IPA",
-      "photo": ""
+      "type" : "IPA"
     },
     "-LCdjhIc-tmYalz3VMDm" : {
       "abv" : "5",
@@ -94,10 +94,10 @@
       "description" : "This foamy beer is guaranteed to leave you with a bubble 'stache.",
       "ibu" : "45",
       "name" : "Bubble Stash",
-      "notes" : "",
+      "notes" : "resin, pine, citrus",
+      "photo" : "https://pbs.twimg.com/media/DMXStMQUEAAZjBc.jpg",
       "rating" : "3.78",
-      "type" : "IPA",
-      "photo": ""
+      "type" : "IPA"
     },
     "-LCdjxgqMnRG7lm0L5es" : {
       "abv" : "5.9",
@@ -105,10 +105,10 @@
       "description" : "Vanilla beans are added to the conditioning tank in this robust porter, giving the bittersweet chocolate notes a well rounded finish.",
       "ibu" : "50",
       "name" : "VIP (Vanilla Infused Porter)",
-      "notes" : "",
+      "notes" : "vanilla, chocolate, malt",
+      "photo" : "http://2.bp.blogspot.com/-mSuBZXVRetM/VijiYvS_ZHI/AAAAAAAACEw/NIDA-L6Ol9w/s1600/DSC_0059.JPG",
       "rating" : "3.68",
-      "type" : "Porter",
-      "photo": ""
+      "type" : "Porter"
     },
     "-LCdk8jq3-KEwQViVA2Z" : {
       "abv" : "5",
@@ -116,10 +116,10 @@
       "description" : "The quintessential Northwest pale ale. Cascade hops and more Cascade hops give this tawny colored ale delicious hop-forward aroma and flavor. Pale malt allows the hops to linger, not overpower.",
       "ibu" : "40",
       "name" : "Mirror Pond",
-      "notes" : "",
+      "notes" : "citrus, malt",
+      "photo" : "https://thumbor.forbes.com/thumbor/249x0/https%3A%2F%2Fblogs-images.forbes.com%2Ferikkain%2Ffiles%2F2012%2F01%2Flarge_MirrorPond-e1325872829894.jpg",
       "rating" : "3.61",
-      "type" : "Pale Ale",
-      "photo": ""
+      "type" : "Pale Ale"
     },
     "-LCdkQahy6pWAkqviuNC" : {
       "abv" : "6.2",
@@ -127,10 +127,10 @@
       "description" : "The citrus punch of a big IPA, minus the one-dimensional hop sledgehammer. Seven select European and domestic malts round out the edges for a complex, copper-colored brew. Like its namesake skilift, it’s an insider’s ride to fresh thrills.",
       "ibu" : "60",
       "name" : "Red Chair NWPA",
-      "notes" : "",
+      "notes" : "tropical fruits, pine",
+      "photo" : "https://www.deschutesbrewery.com/wp-content/uploads/2015/07/36644_Deschutes_RedChairNWPA_Comp_R4_SMP.png",
       "rating" : "3.71",
-      "type" : "Pale Ale",
-      "photo": ""
+      "type" : "Pale Ale"
     },
     "-LCdka04rBlZN7a3FUsV" : {
       "abv" : "6.7",
@@ -138,10 +138,10 @@
       "description" : "A dark, malty celebration ale with layered flavors and beautifully balanced hopping. Jubelale pours deep garnet in color, medium bodied, with notes of chicory, earth, spice and fruit. To beer lovers, it’s like Yule fire and family.",
       "ibu" : "65",
       "name" : "Jubelale",
-      "notes" : "",
+      "notes" : "toffee",
+      "photo" : "https://www.deschutesbrewery.com/wp-content/uploads/2017/10/jubelale-2017-with-ingredients.png",
       "rating" : "3.6",
-      "type" : "Winter Ale",
-      "photo": ""
+      "type" : "Winter Ale"
     },
     "-LCdknaRt72j1EHDIMEu" : {
       "abv" : "4.9",
@@ -149,10 +149,10 @@
       "description" : "* 2017 GOLD MEDAL WINNER - Oregon Beer Awards! *\nMeet the beer that started it all. Our naturally cloudy flagship brew starts with the highest quality wheat. It's bold, clean flavor and pronounced citrus and floral aromas are what define American-style Hefeweizen. So pour yourself a cool, cloudy glass, finish with a lemon and enjoy the original.",
       "ibu" : "30",
       "name" : "Hefeweizen",
-      "notes" : "",
+      "notes" : "grapefruit, malt",
+      "photo" : "https://i.pinimg.com/originals/33/a7/f5/33a7f52f46490d2cb357ce96a2079945.jpg",
       "rating" : "3.46",
-      "type" : "Hefeweizen",
-      "photo": ""
+      "type" : "Hefeweizen"
     },
     "-LCdlqlRvuhNh0UOiYLo" : {
       "abv" : "5.5",
@@ -160,10 +160,10 @@
       "description" : "Drop Top is a rich, flavorful Amber Ale, with an exceptionally smooth and easy taste. Uniquely brewed with honey malt and just a touch of milk sugar, Drop Top's silky character yields complex flavors without a trace of harshness. It all adds up to a brew that's as easy to appreciate as it is to drink.",
       "ibu" : "20",
       "name" : "Drop Top Amber",
-      "notes" : "",
+      "notes" : "caramel, raisin",
+      "photo" : "https://widmerbrothers.com/assets/BeerPage_ProductHero_DropTopAmber.png",
       "rating" : "3.51",
-      "type" : "Red Ale",
-      "photo": ""
+      "type" : "Red Ale"
     },
     "-LCdm6VQOU8jdPFwOmpP" : {
       "abv" : "5.5",
@@ -171,10 +171,10 @@
       "description" : "Drifter Pale is hopped with Summit, Alchemy, and Nelson Sauvin hops. We used several types of caramel malts to provide flavor depth, enticing color, and a smooth, mildly sweet backbone to support the hop\ncontributions.",
       "ibu" : "50",
       "name" : "Drifter Pale Ale",
-      "notes" : "",
+      "notes" : "floral, malt",
+      "photo" : "https://widmerbrothers.com/assets/BeerPage_ProductHero_Drifter.png",
       "rating" : "3.43",
-      "type" : "Pale Ale",
-      "photo": ""
+      "type" : "Pale Ale"
     },
     "-LCdmKwQ1nuNPeYmsDD9" : {
       "abv" : "4.2",
@@ -182,10 +182,10 @@
       "description" : "The original American Hefeweizen gets a bold, new citrusy aroma and flavor from lemon drop hops & natural lemonade flavor. ",
       "ibu" : "12",
       "name" : "Hefe Shandy",
-      "notes" : "",
+      "notes" : "lemon",
+      "photo" : "https://www.winespecialiststore.com/images/sites/winespecialiststore/labels/w8629433at_1.gif",
       "rating" : "3.34",
-      "type" : "Shandy/Radler",
-      "photo": ""
+      "type" : "Shandy/Radler"
     },
     "-LCdmkoJaapAdcP7Qtfb" : {
       "abv" : "6.8",
@@ -193,10 +193,10 @@
       "description" : "An ale inspired by the style of a German Maibock, brewed using our proprietary Pacman yeast, Dead Guy Ale is deep honey in color with a malty aroma, rich hearty flavor and a well balanced finish.\n\nHistory: In the early 1990s Dead Guy Ale was created as a private tap sticker to celebrate the Mayan Day of the Dead (November 1st, All Souls Day) for Casa U Betcha in Portland, Oregon. The Dead Guy design proved so popular with consumers and especially Grateful Dead fans, that we made it the label for our Maierbock ale. Even though the association with the Grateful Dead band is pure coincidence, we have gratefully dedicated Dead Guy Ale to the Rogue in each of us.\n\nThe Dead Guy packaging remained unchanged for 25 years until 2017 when we updated the labels with our new design. ",
       "ibu" : "40",
       "name" : "Dead Guy Ale",
-      "notes" : "",
+      "notes" : "malt, caramel",
+      "photo" : "http://brickovencb.com/wp-content/uploads/2013/02/rogue_dead_guy_ale.jpg",
       "rating" : "3.72",
-      "type" : "Maibock / Heller (Helles) Bock",
-      "photo": ""
+      "type" : "Maibock / Heller (Helles) Bock"
     },
     "-LCdn5XODUUG27zz6loI" : {
       "abv" : "5.6",
@@ -204,10 +204,10 @@
       "description" : "Tasting Notes:\nA nutty twist to a traditional European Brown Ale. Dark brown in color with a hazelnut aroma, a rich nutty flavor and a smooth malty finish.\n\n11 Ingredients:\nGreat Western 2-Row, Brown, Carastan 13/17, Crystal 70/80, Crystal 135/165, Beeston Pale, Chocolate Malts; Perle & Sterling Hops; Hazelnut Extract, Free Range Coastal Water & Pacman Yeast.\n\nFood Pairing: Pork, Beef\n\nHISTORY\nDedicated to the homebrewer in each of us! The homebrewer who inspired this creation is Chris Studach, a friend of Rogue’s resident wizard John Maier, who added a Northwest twist to the classic style by adding hazelnuts for the host homebrew at the 1993 American Homebrewers Association\nconvention. Chris put the nut in nut brown!",
       "ibu" : "33",
       "name" : "Hazelnut Brown Nectar",
-      "notes" : "",
+      "notes" : "malt, nuts, caramel",
+      "photo" : "http://www.totalwine.com/media/sys_master/twmmedia/h0d/hcc/11019509694494.png",
       "rating" : "3.82",
-      "type" : "Brown Ale",
-      "photo": ""
+      "type" : "Brown Ale"
     },
     "-LCdnWX-9lCV36vUyheS" : {
       "abv" : "5.3",
@@ -215,10 +215,10 @@
       "description" : "The Collision of Crazies continues by combining the two best inventions on planet earth: beer and doughnuts. This ale was inspired by the Voodoo Mango Tango doughnut and handcrafted at the Rogue Ales Brewery in Newport, Oregon, by Brewmaster John Maier.",
       "ibu" : "20",
       "name" : "Voodoo Doughnut Mango Astronaut Ale",
-      "notes" : "",
+      "notes" : "mango",
+      "photo" : "https://i1.wp.com/beerstreetjournal.com/wp-content/uploads/Rogue-Voodoo-Doughnut-Mango-Astronaut-Ale.png?fit=937%2C794",
       "rating" : "3.72",
-      "type" : "Fruit Beer",
-      "photo": ""
+      "type" : "Fruit Beer"
     },
     "-LCdnkyUEfgkKW1rPFL5" : {
       "abv" : "4.8",
@@ -226,10 +226,10 @@
       "description" : "Tasting Notes:\nMom Hefeweizen is a refreshing, Belgian style blonde ale, infused with Rose Petals from Eugene, Oregon.\n\n8 Ingredients:\nMalts: Wheat , Great Western 2-Row. Hops: Sterling. Specialty: Rose Water, Rose Petals, Honey. Yeast & Water: Rogue's Pacman Yeast & Free Range Coastal Water.\n\nFood Pairing: Hot & Spicy, Poultry\n\nHISTORY\nDedicated to the Mom in each of us. Mom Hefeweizen is a refreshing, Belgian style blonde ale, infused with Roses from Eugene, Oregon.",
       "ibu" : "30",
       "name" : "MoM Hefeweizen (with Rose Petals)",
-      "notes" : "",
+      "notes" : "honey, floral",
+      "photo" : "http://www.totalwine.com/media/sys_master/twmmedia/hc7/hda/8815945056286.png",
       "rating" : "3.41",
-      "type" : "Hefeweizen",
-      "photo": ""
+      "type" : "Hefeweizen"
     }
   },
   "brewers" : {
@@ -237,61 +237,158 @@
       "address" : "1221 E Pike St",
       "beers" : [ "Superfuzz", "Night Owl Pumpkin Ale", "Split Shot", "Space Dust IPA" ],
       "city" : "Seattle",
-      "name" : "Elysian",
+      "description" : "Three-time Large Brewpub of the Year at the Great American Beer Festival, Elysian Brewing Company operates four neighborhood restaurants and a production brewery in Seattle, Washington. Known both for classic styles and for flexibility and innovation, Elysian has brewed over 350 different recipes since opening in 1996. While Elysian’s brewers use a variety of unusual ingredients, they are seasonally notorious for their pumpkin beers. Each year Elysian hosts the Great Pumpkin Beer Festival, where dozens of different pumpkin beers are poured, some of them from giant pumpkins.  Our first Seattle location, a 220-seat beer hall and our main brewery, opened in 1996 on Capitol Hill, Seattle’s most populous neigh- borhood. In 1997 Elysian was chosen to operate a pub and small brewery at Gameworks—a large entertainment complex owned by Universal Studios, Dreamworks & Sega. Elysian left this partnership in 2002 upon expiration of the five-year contract. A short year later Elysian opened Tangletown, an 80-seat neighborhood brewery/bistro. With a 3-bbl pilot brewery, Elysian TangleTown acted as the brewers’ test kitchen, fueling the creative fires and helping cement Elysian’s reputation as Seattle’s top brewpub. Elysian Fields, opened in August 2006. Perched next to Seattle’s two sports arenas, Fields seats 400 and packs the house at lunch and on gamedays. Fields has since become an innovation center for our brewers where new beers are brewed each week on the 7bbl brew.",
+      "name" : "Elysian Brewing",
+      "photos" : [ "https://www.hopvalleybrewing.com/wp-content/themes/HV2017-v1.3/images/age-logo.png" ],
       "state" : "WA",
-      "zip" : 98122,
-      "photos": [""]
+      "zip" : 98122
     },
     "-LCdaJQdzHoVPwyjQek-" : {
       "address" : "980 Kruse Way",
       "beers" : [ "Citrus Mistress", "Alphadelic", "Bubble Stash", "VIP (Vanilla Infused Porter)" ],
       "city" : "SpringField",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "name" : "Hop Valley Brewing",
+      "photos" : [ "" ],
       "state" : "OR",
-      "zip" : "97477",
-      "photos": [""]
+      "zip" : "97477"
     },
     "-LCdazu-un2OcSR7tX-J" : {
       "address" : "210 NW 11th Ave.",
       "beers" : [ "Black Butte Porter", "Mirror Pond", "Red Chair NWPA", "Jubelale" ],
       "city" : "Portland",
+      "description" : "As co-owners of Deschutes, we are proud to be family and employee owned. We are dedicated to our core values and live them every day by; honoring our customers, delivering quality, working as a team, doing our best and next time doing it better, building a healthier society, celebrating the culture of beer, and owning it!!  We are committed to the craft beer industry and our community by honoring our mission to PROFITABLY DELIVER THE FINEST BEERS IN THE WORLD AND CULTIVATE EXTRAORDINARY EXPERIENCES.",
       "name" : "Deschutes Brewery",
+      "photos" : [ "http://deschutesbrewery.com/wp-content/uploads/2008/11/Deschutes-Brewery-logo-2.png" ],
       "state" : "OR",
-      "zip" : "97209",
-      "photos": [""]
+      "zip" : "97209"
     },
     "-LCdbcfa98mLP6fcfucq" : {
       "address" : "929 N Russell St.",
       "beers" : [ "Hefeweizen", "Drop Top Amber", "Drifter Pale Ale", "Hefe Shandy" ],
       "city" : "Portland",
+      "description" : "Widmer Brothers Brewing is located in brew-friendly Portland, OR. Our publicly-held brewery employs over 150 people who are as passionate about quality craft beer as Kurt & Rob themselves.  We opened our first brewery in 1984 in what is now the Pearl District. In 1990 we built a new 40-barrel brewing system in our current Russell Street location.  In 1996, we completed installation of a state-of-the art 250-barrel brew house, bringing our capacity to 220,000 barrels per year. In 1996, for the first time in our brewery's history we installed a bottling line, capable of producing 500 bottles per minute. In 2008 we added six new 1500-barrel fermentation tanks that increased our capacity to 450,000 barrels per year, and added a new keg filling line capable of filling 300 kegs per hour.",
       "name" : "The Widmer Brothers Brewery",
+      "photos" : [ "https://d2pxm94gkd1wuq.cloudfront.net/BreweryLogos/Standard/768942969.widmer.png" ],
       "state" : "OR",
-      "zip" : "97227",
-      "photos": [""]
+      "zip" : "97227"
     },
     "-LCdbv-TVCo3zT10sd7U" : {
       "address" : "928 SE 9th Ave",
       "beers" : [ "Dead Guy Ale", "Hazelnut Brown Nectar", "Voodoo Doughnut Mango Astronaut Ale", "MoM Hefeweizen (with Rose Petals)" ],
       "city" : "Portland",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "name" : "Rogue Brewery",
+      "photos" : [ "https://www.jandlventuresllc.com/upload/Brewers/rogue_Med.jpg", "https://media-verticommnetwork1.netdna-ssl.com/wines/rogue-hazelnut-brown-nectar-355ml-659053-s120.jpg" ],
       "state" : "OR",
-      "zip" : "97214",
-      "photos": [""]
+      "zip" : "97214"
     }
   },
-  "posts" : [ {
-    "beerOption" : "",
-    "body" : "",
-    "date" : "",
-    "images" : [ "" ],
-    "location" : "",
-    "postedBy" : ""
-  } ],
+  "posts" : {
+    "0" : {
+      "beerOption" : "Space Dust IPA",
+      "body" : "Beer is Delicious!\n",
+      "date" : "May 12, 2018",
+      "images" : [ "" ],
+      "location" : "Epicodus",
+      "postedBy" : "sassyusername",
+      "rating" : 4
+    },
+    "-LCepMqHUIRmdnu-onGi" : {
+      "beerOption" : "Hefeweizen",
+      "body" : "The real Hefe would approve! #bunnies",
+      "brewery" : "The Widmer Brothers Brewery",
+      "date" : "April 15, 2018",
+      "images" : [ "" ],
+      "location" : "Playboy Mansion",
+      "postedBy" : "sassyusername",
+      "rating" : 5
+    },
+    "-LCeq8dkTGphYcqEtzQe" : {
+      "beerOption" : "Bubble Stash",
+      "body" : "It tickles as it goes down!",
+      "brewery" : "Hop Valley Brewing",
+      "date" : "March 03, 2018",
+      "images" : [ "" ],
+      "location" : "in a bubble bath",
+      "postedBy" : "sassyusername",
+      "rating" : 4
+    },
+    "-LCeqii5IqeYcgTc5UBn" : {
+      "beerOption" : "Night Owl Pumpkin Ale",
+      "body" : "It makes me feel spooky!",
+      "brewery" : "Elysian Brewing",
+      "date" : "February 24, 2018",
+      "images" : [ "" ],
+      "location" : "Halloween town pub",
+      "postedBy" : "sassyusername",
+      "rating" : 3
+    },
+    "-LCerj5MU3iE_5Lekpfr" : {
+      "beerOption" : "Mirror Pond",
+      "body" : "I saw myself in this beer",
+      "brewery" : "Deschutes Brewery",
+      "date" : "May 16, 2018",
+      "images" : [ "" ],
+      "location" : "Hole of watering",
+      "postedBy" : "awkwardpunnyname",
+      "rating" : 3
+    },
+    "-LCesDJxBOp0_oKPFAE1" : {
+      "beerOption" : "Drifter Pale Ale",
+      "body" : "Meh",
+      "brewery" : "The Widmer Brothers Brewery",
+      "date" : "April 21, 2018",
+      "images" : [ "" ],
+      "location" : "Knowhere",
+      "postedBy" : "ultrabroguy",
+      "rating" : 2
+    },
+    "-LCesxaf47oklGIvUYzb" : {
+      "beerOption" : "Drop Top Amber",
+      "body" : "Would drink in a convertible",
+      "brewery" : "The Widmer Brothers Brewery",
+      "date" : "March 23, 2018",
+      "images" : [ "" ],
+      "location" : "not a convertible",
+      "postedBy" : "poopedmypants",
+      "rating" : 4
+    },
+    "-LCetmuV-hqIei6HOr9l" : {
+      "beerOption" : "Bubble Stash",
+      "body" : "I couldn't grow a mustache before this beer",
+      "brewery" : "Hop Valley Brewing",
+      "date" : "Feb 29, 2018",
+      "images" : [ "" ],
+      "location" : "Shaving in my shower",
+      "postedBy" : "fumanchu",
+      "rating" : 4
+    }
+  },
   "users" : [ {
-    "beersDrank" : [ "" ],
+    "beersDrank" : ["Space Dust IPA", "Night Owl Pumpkin Ale", "Mirror Pond", "Drop Top Amber", "Bubble Stash" ],
     "name" : "sassyusername",
     "picture" : "",
-    "postList" : [ "" ],
-    "wishlist" : [ "" ]
+    "wishlist" : [ "Citrus Mistress", "Superfuzz" ]
+  },{
+    "beersDrank" : ["Mirror Pond"],
+    "name" : "awkwardpunnyname",
+    "picture" : "",
+    "wishlist" : ["Night Owl Pumpkin Ale"]
+  }, {
+    "beersDrank" : ["Drifter Pale Ale"],
+    "name" : "ultrabroguy",
+    "picture" : "",
+    "wishlist" : ["Bubble Stash"]
+  }, {
+    "beersDrank" : ["Drop Top Amber"],
+    "name" : "poopedmypants",
+    "picture" : "",
+    "wishlist" : ["Space Dust IPA"]
+  }, {
+    "beersDrank" : ["Bubble Stash"],
+    "name" : "fumanchu",
+    "picture" : "",
+    "wishlist" : ["Mirror Pond"]
   } ]
 }
