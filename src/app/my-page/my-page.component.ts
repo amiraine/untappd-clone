@@ -19,7 +19,7 @@ export class MyPageComponent implements OnInit {
   edit: boolean = false;
   selectedPost;
   breweryList;
-  
+
   constructor(private userService: UserService, private postService: PostService, private beerService: BeerService, private breweryService: BreweryService) { }
 
   ngOnInit() {
@@ -51,9 +51,8 @@ export class MyPageComponent implements OnInit {
       }
     })
   }
-  writePost(){
+  writePost(){}
 
-<<<<<<< HEAD
   editPost(post) {
     this.edit=true;
     this.selectedPost = post;
@@ -73,7 +72,4 @@ export class MyPageComponent implements OnInit {
 
   }
 
-=======
-  }
->>>>>>> f6c64510bde7d5ec78a151f55b5029f3ff1961ed
 }
