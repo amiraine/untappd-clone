@@ -26,9 +26,5 @@ export class UserService {
     this.userList.push(newUser);
   }
 
-  deleteBeer(outUser) {
-    let entryInFirebase = this.getUserById(outUser.$key);
-    entryInFirebase.remove();
-  }
 
 }

@@ -23,6 +23,7 @@ import { AdminComponent } from './admin/admin.component';
 import { BeerDetailComponent } from './beer-detail/beer-detail.component';
 import { AddBeerComponent } from './add-beer/add-beer.component';
 import { AddPostComponent } from './add-post/add-post.component';
+import { EditPostComponent } from './edit-post/edit-post.component';
 
 import { FilterListPipe } from './filter-list.pipe';
 import { MyPostPipe } from './myposts.pipe';
@@ -49,8 +50,10 @@ export const firebaseConfig = {
     BeerDetailComponent,
     AddBeerComponent,
     AddPostComponent,
+    EditPostComponent,
     FilterListPipe,
     MyPostPipe
+    // SearchPipe
   ],
   imports: [
     BrowserModule,

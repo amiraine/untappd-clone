@@ -50,7 +50,9 @@
       <p>Rating: {{post.rating}} out of 5</p>
       <p>{{post.body}}</p>
       <!-- <img *ngFor="let image of post.images" src="{{image}}" alt="picture"> -->
+      <button (click)="editPost(post)">Edit Post</button>
     </div>
+    <app-edit-post *ngIf="edit" [selectedPost]="selectedPost" (endEdit)="endEdit()"></app-edit-post>
   </div>
   <div class="col-md-4">
     <app-user-module></app-user-module>

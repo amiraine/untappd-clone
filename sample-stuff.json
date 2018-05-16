@@ -238,9 +238,7 @@
       "beers" : [ "Superfuzz", "Night Owl Pumpkin Ale", "Split Shot", "Space Dust IPA" ],
       "city" : "Seattle",
       "name" : "Elysian",
-      "description":"Three-time Large Brewpub of the Year at the Great American Beer Festival, Elysian Brewing Company operates four neighborhood restaurants and a production brewery in Seattle, Washington. Known both for classic styles and for flexibility and innovation, Elysian has brewed over 350 different recipes since opening in 1996. While Elysian’s brewers use a variety of unusual ingredients, they are seasonally notorious for their pumpkin beers. Each year Elysian hosts the Great Pumpkin Beer Festival, where dozens of different pumpkin beers are poured, some of them from giant pumpkins.
-
-      Our first Seattle location, a 220-seat beer hall and our main brewery, opened in 1996 on Capitol Hill, Seattle’s most populous neigh- borhood. In 1997 Elysian was chosen to operate a pub and small brewery at Gameworks—a large entertainment complex owned by Universal Studios, Dreamworks & Sega. Elysian left this partnership in 2002 upon expiration of the five-year contract. A short year later Elysian opened Tangletown, an 80-seat neighborhood brewery/bistro. With a 3-bbl pilot brewery, Elysian TangleTown acted as the brewers’ test kitchen, fueling the creative fires and helping cement Elysian’s reputation as Seattle’s top brewpub. Elysian Fields, opened in August 2006. Perched next to Seattle’s two sports arenas, Fields seats 400 and packs the house at lunch and on gamedays. Fields has since become an innovation center for our brewers where new beers are brewed each week on the 7bbl brew.",
+      "description":"Three-time Large Brewpub of the Year at the Great American Beer Festival, Elysian Brewing Company operates four neighborhood restaurants and a production brewery in Seattle, Washington. Known both for classic styles and for flexibility and innovation, Elysian has brewed over 350 different recipes since opening in 1996. While Elysian’s brewers use a variety of unusual ingredients, they are seasonally notorious for their pumpkin beers. Each year Elysian hosts the Great Pumpkin Beer Festival, where dozens of different pumpkin beers are poured, some of them from giant pumpkins.  Our first Seattle location, a 220-seat beer hall and our main brewery, opened in 1996 on Capitol Hill, Seattle’s most populous neigh- borhood. In 1997 Elysian was chosen to operate a pub and small brewery at Gameworks—a large entertainment complex owned by Universal Studios, Dreamworks & Sega. Elysian left this partnership in 2002 upon expiration of the five-year contract. A short year later Elysian opened Tangletown, an 80-seat neighborhood brewery/bistro. With a 3-bbl pilot brewery, Elysian TangleTown acted as the brewers’ test kitchen, fueling the creative fires and helping cement Elysian’s reputation as Seattle’s top brewpub. Elysian Fields, opened in August 2006. Perched next to Seattle’s two sports arenas, Fields seats 400 and packs the house at lunch and on gamedays. Fields has since become an innovation center for our brewers where new beers are brewed each week on the 7bbl brew.",
       "photos" : [ "https://www.hopvalleybrewing.com/wp-content/themes/HV2017-v1.3/images/age-logo.png" ],
       "state" : "WA",
       "zip" : 98122
@@ -260,9 +258,7 @@
       "beers" : [ "Black Butte Porter", "Mirror Pond", "Red Chair NWPA", "Jubelale" ],
       "city" : "Portland",
       "name" : "Deschutes Brewery",
-      "description": "As co-owners of Deschutes, we are proud to be family and employee owned. We are dedicated to our core values and live them every day by; honoring our customers, delivering quality, working as a team, doing our best and next time doing it better, building a healthier society, celebrating the culture of beer, and owning it!!
-
-We are committed to the craft beer industry and our community by honoring our mission to PROFITABLY DELIVER THE FINEST BEERS IN THE WORLD AND CULTIVATE EXTRAORDINARY EXPERIENCES.",
+      "description": "As co-owners of Deschutes, we are proud to be family and employee owned. We are dedicated to our core values and live them every day by; honoring our customers, delivering quality, working as a team, doing our best and next time doing it better, building a healthier society, celebrating the culture of beer, and owning it!!  We are committed to the craft beer industry and our community by honoring our mission to PROFITABLY DELIVER THE FINEST BEERS IN THE WORLD AND CULTIVATE EXTRAORDINARY EXPERIENCES.",
       "photos" : [ "http://deschutesbrewery.com/wp-content/uploads/2008/11/Deschutes-Brewery-logo-2.png" ],
       "state" : "OR",
       "zip" : "97209"
@@ -272,11 +268,7 @@ We are committed to the craft beer industry and our community by honoring our mi
       "beers" : [ "Hefeweizen", "Drop Top Amber", "Drifter Pale Ale", "Hefe Shandy" ],
       "city" : "Portland",
       "name" : "The Widmer Brothers Brewery",
-      "description": "Widmer Brothers Brewing is located in brew-friendly Portland, OR. Our publicly-held brewery employs over 150 people who are as passionate about quality craft beer as Kurt & Rob themselves.
-
-We opened our first brewery in 1984 in what is now the Pearl District. In 1990 we built a new 40-barrel brewing system in our current Russell Street location.
-
-In 1996, we completed installation of a state-of-the art 250-barrel brew house, bringing our capacity to 220,000 barrels per year. In 1996, for the first time in our brewery's history we installed a bottling line, capable of producing 500 bottles per minute. In 2008 we added six new 1500-barrel fermentation tanks that increased our capacity to 450,000 barrels per year, and added a new keg filling line capable of filling 300 kegs per hour.",
+      "description": "Widmer Brothers Brewing is located in brew-friendly Portland, OR. Our publicly-held brewery employs over 150 people who are as passionate about quality craft beer as Kurt & Rob themselves.  We opened our first brewery in 1984 in what is now the Pearl District. In 1990 we built a new 40-barrel brewing system in our current Russell Street location.  In 1996, we completed installation of a state-of-the art 250-barrel brew house, bringing our capacity to 220,000 barrels per year. In 1996, for the first time in our brewery's history we installed a bottling line, capable of producing 500 bottles per minute. In 2008 we added six new 1500-barrel fermentation tanks that increased our capacity to 450,000 barrels per year, and added a new keg filling line capable of filling 300 kegs per hour.",
       "photos" : [ "https://d2pxm94gkd1wuq.cloudfront.net/BreweryLogos/Standard/768942969.widmer.png" ],
       "state" : "OR",
       "zip" : "97227"
