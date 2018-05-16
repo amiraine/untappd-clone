@@ -6,7 +6,7 @@ _Authored by Cameron Button, Ami Cooper, Kayl Eubanks, and Kristen Chellis_
 
 ## Description
 
-  This App is designed to act like the untappd website/ app.  User's can log in with a personal profile and log beers that they drink along with any comments about what they think about the beer.  Breweries can make their own accounts and list the beers they have for sale with notes on those beers.
+  This App is designed to act like the untappd website/ app.  User's can log beers that they drink along with any comments about what they think about the beer.  Breweries can make their own accounts via the admin panel and list the beers they have for sale.
 
 
 ## Set up and installation
@@ -21,8 +21,10 @@ _Authored by Cameron Button, Ami Cooper, Kayl Eubanks, and Kristen Chellis_
   * Breweries can make a list of their beers
 
   ![A user interface picture](src/assets/img/usermock.png)
+  This is a rough draft of a user page.
 
   ![A user interface picture](src/assets/img/brewerymock.png)
+  This is a rough draft of the brewery page.
 
 ## Development server
 
@@ -48,4 +50,28 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+### License
+
 *MIT License
+
+Copyright (c) [2018]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.*
+
+Copyright (c) 2018 **_Cameron Button, Ami Cooper, Kayl Eubanks, and Kristen Chellis_**

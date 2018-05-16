@@ -4,23 +4,54 @@
   </div>
   <div class="col-md-10">
     <div class="panel">
-      <h3>{{selectedBrewery?.name}}</h3>
-      <p>{{selectedBrewery?.address}}</p>
-      <p>{{selectedBrewery?.city}}, {{selectedBrewery?.state}} {{selectedBrewery?.zip}}</p>
-      <hr>
       <div class="row">
-        <ul>
-          <li *ngFor="let beer of selectedBrewery.beers" (click)="goToBeer(beer)">{{beer}}</li>
-        </ul>
+        <div class="col-md-8">
+          <h2>{{selectedBrewery?.name}}</h2>
+        </div>
+        <div class="col-md-4 address">
+          <p>{{selectedBrewery?.address}}</p>
+          <br>{{selectedBrewery?.city}}, {{selectedBrewery?.state}} {{selectedBrewery?.zip}}
+        </div>
       </div>
+      <div class="row panel">
+        <p>{{selectedBrewery?.description}}</p>
+      </div>
+      <hr>
+      <h2>Beers by {{selectedBrewery?.name}}</h2>
+      <ul>
+        <li *ngFor="let beer of selectedBrewery.beers" (click)="goToBeer(beer)">{{beer}}</li>
+      </ul>
     </div>
   </div>
   <div class="col-md-1">
 <!--  -->
   </div>
 </div>
-<button class="btn btn-success" (click)="showAdmin()">Add New Beer</button>
-<div *ngIf="admin">
-  <app-add-beer></app-add-beer>
-  <button class="btn btn-secondary" (click)="hideAdmin()">Hide</button>
+<div class="row">
+  <div class="col-md-1">
+<!--  -->
+  </div>
+  <div class="col-md-10">
+    <div class="add-beer">
+      <sub (click)="showAdmin()">Are you the owner of this brewery? Click here to add a new beer to your tap list!</sub>
+    </div>
+
+  </div>
+  <div class="col-md-1">
+<!--  -->
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-1">
+
+  </div>
+  <div class="col-md-10">
+    <div *ngIf="admin">
+      <app-add-beer></app-add-beer>
+      <button class="btn btn-secondary" (click)="hideAdmin()">Hide</button>
+    </div>
+  </div>
+  <div class="col-md-1">
+
+  </div>
 </div>
