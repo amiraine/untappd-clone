@@ -24,6 +24,8 @@ import { BeerDetailComponent } from './beer-detail/beer-detail.component';
 import { AddBeerComponent } from './add-beer/add-beer.component';
 import { AddPostComponent } from './add-post/add-post.component';
 
+import { FilterListPipe } from './filter-list.pipe';
+
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
   authDomain: masterFirebaseConfig.authDomain,
@@ -46,7 +48,7 @@ export const firebaseConfig = {
     BeerDetailComponent,
     AddBeerComponent,
     AddPostComponent,
-    // SearchPipe
+    FilterListPipe
   ],
   imports: [
     BrowserModule,
