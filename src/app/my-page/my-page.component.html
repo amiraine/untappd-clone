@@ -7,13 +7,15 @@
       <h4>What are you drinking?</h4>
       <div class="form-row">
         <div class="col-md-6">
-          <select class="form-control" name="brewery" [(ngModel)]="parameter">
+          <label>Brewery</label>
+          <br><select class="form-control" name="brewery" [(ngModel)]="parameter">
             <option disabled selected>Which brewery?</option>
             <option *ngFor="let brewery of breweryList" [value]="brewery.name">{{brewery.name}}</option>
           </select>
         </div>
         <div class="col-md-6">
-          <select class="form-control" name="beers">
+          <label>Beer</label>
+          <br><select class="form-control" name="beers">
             <option disabled>Which beer?</option>
             <option *ngFor="let beer of beerList | filter: parameter">{{beer.name}}</option>
           </select>
