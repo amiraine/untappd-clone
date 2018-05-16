@@ -1,8 +1,50 @@
 <div class="row">
   <div class="col-md-1">
-
+<!--  -->
   </div>
   <div class="col-md-7 panel">
+    <form class="form-control" id="user-post">
+      <h4>What are you drinking?</h4>
+      <div class="form-row">
+        <div class="col-md-6">
+          <label>Brewery</label>
+          <br><select class="form-control" name="brewery" [(ngModel)]="parameter">
+            <option disabled selected>Which brewery?</option>
+            <option *ngFor="let brewery of breweryList" [value]="brewery.name">{{brewery.name}}</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label>Beer</label>
+          <br><select class="form-control" name="beers">
+            <option disabled>Which beer?</option>
+            <option *ngFor="let beer of beerList | filter: parameter">{{beer.name}}</option>
+          </select>
+        </div>
+      </div>
+      <br><label>How would you rate it?</label>
+      <br><div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" value="1" name="rating" id="radio1" #newRating>
+        <label class="form-check-label" for="radio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" value="2" name="rating" id="radio2" #newRating>
+        <label class="form-check-label" for="radio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" value="3" name="rating" id="radio3" #newRating>
+        <label class="form-check-label" for="radio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" value="4" name="rating" id="radio4" #newRating>
+        <label class="form-check-label" for="radio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" value="5" name="rating" id="radio5" #newRating>
+        <label class="form-check-label" for="radio5">5</label>
+      </div>
+      <br><input #postContent placeholder="Any other thoughts?" class="form-control">
+      <br><button class="btn btn-light">Post</button>
+    </form>
     <div *ngFor="let post of userPostList">
       <h4>{{currentUser.name}} is drinking {{post.beerOption}} by {{post.brewery}} at {{post.location}}</h4>
       <p>Rating: {{post.rating}} out of 5</p>

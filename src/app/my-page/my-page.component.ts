@@ -2,12 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { UserService } from '../user.service';
 import { PostService } from '../post.service';
 import { BeerService } from '../beer.service';
+import { BreweryService } from '../brewery.service';
 
 @Component({
   selector: 'app-my-page',
   templateUrl: './my-page.component.html',
   styleUrls: ['./my-page.component.css'],
-  providers: [UserService, PostService, BeerService]
+  providers: [UserService, PostService, BeerService, BreweryService]
 })
 export class MyPageComponent implements OnInit {
   userList;
@@ -17,9 +18,14 @@ export class MyPageComponent implements OnInit {
   beerList;
   edit: boolean = false;
   selectedPost;
-  constructor(private userService: UserService, private postService: PostService, private beerService: BeerService) { }
+  breweryList;
+  
+  constructor(private userService: UserService, private postService: PostService, private beerService: BeerService, private breweryService: BreweryService) { }
 
   ngOnInit() {
+    this.breweryService.getBrewery().subscribe(dataLastEmittedFromObserver => {
+      this.breweryList = dataLastEmittedFromObserver;
+    })
     this.userService.getUsers().subscribe(dataLastEmittedFromObserver => {
       this.userList = dataLastEmittedFromObserver;
       this.currentUser= this.userList[0];
@@ -45,7 +51,9 @@ export class MyPageComponent implements OnInit {
       }
     })
   }
+  writePost(){
 
+<<<<<<< HEAD
   editPost(post) {
     this.edit=true;
     this.selectedPost = post;
@@ -65,4 +73,7 @@ export class MyPageComponent implements OnInit {
 
   }
 
+=======
+  }
+>>>>>>> f6c64510bde7d5ec78a151f55b5029f3ff1961ed
 }

@@ -62,3 +62,7 @@ textarea{
   padding: 10px;
   border-radius: 5px;
 }
+.form-control#user-post{
+  background-color: #40e0d0!important;
+  color: #262626;
+}
