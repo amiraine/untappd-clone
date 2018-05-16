@@ -16,8 +16,8 @@
     </ul>
   </div>
 </div>
-<button (click)="showAdmin()">Add New Beer</button>
+<button class="btn btn-success" (click)="showAdmin()">Add New Beer</button>
 <div *ngIf="admin">
   <app-add-beer></app-add-beer>
-  <button (click)="hideAdmin()">Hide</button>
+  <button class="btn btn-secondary" (click)="hideAdmin()">Hide</button>
 </div>
