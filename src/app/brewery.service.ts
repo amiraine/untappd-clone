@@ -9,7 +9,6 @@ export class BreweryService {
   breweryTarget;
   constructor(private database: AngularFireDatabase) {
       this.breweryList = database.list('brewers');
-      console.log(this.breweryList)
    }
 
   getBrewery() {

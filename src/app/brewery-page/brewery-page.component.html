@@ -11,8 +11,9 @@
     </div>
   </div>
   <div class="row">
+    <h3>Beers:</h3>
     <ul>
-      <li *ngFor="let beer of selectedBrewery.beers" (click)="goToBeer(beer)">{{beer.name}}</li>
+      <li *ngFor="let beer of selectedBrewery.beers" (click)="goToBeer(beer)">{{beer}}</li>
     </ul>
   </div>
 </div>
