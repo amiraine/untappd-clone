@@ -1,9 +1,9 @@
 <div class="row">
   <div class="col-md-1">
-<!--  -->
+    <!-- EMPTY -->
   </div>
   <div class="col-md-6 panel">
-    <form class="form-control" id="user-post">
+    <div class="form-control" id="user-post">
       <h4>What are you drinking?</h4>
       <div class="form-row">
         <div class="col-md-6">
@@ -56,12 +56,11 @@
       <button (click)="editPost(post)">Edit Post</button>
       <app-edit-post *ngIf="selectedPost === post" [selectedPost]="selectedPost" (endEdit)="endEdit()"></app-edit-post>
     </div>
-  </div>
-  <div class="col-md-4">
-    <app-user-module></app-user-module>
-    <app-wishlist [currentUser]="currentUser"></app-wishlist>
-  </div>
-  <div class="col-md-1">
-
-  </div>
+    <div class="col-md-4">
+      <app-user-module></app-user-module>
+      <app-wishlist [currentUser]="currentUser"></app-wishlist>
+    </div>
+    <div class="col-md-1">
+      <!--  -->
+    </div>
 </div>
