@@ -33,9 +33,7 @@ export class AddPostComponent implements OnInit {
     this.newPost.body = body;
     this.newPost.images = imagesArray;
     this.newPost.location = location;
-    console.log(this.newPost.rating);
     this.postService.savePost(this.newPost);
-    this.currentUser.postList.push(this.newPost.beerOption);
     this.currentUser.beersDrank.push(this.selectedBeer.name);
     this.currentUser.wishlist.forEach((beer) => {
       if(beer === this.selectedBeer.name){
