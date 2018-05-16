@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { BEERS } from '../mock-beers';
 import { Beer } from '../models/beer.model';
 import {SearchPipe} from '../search.pipe';
 import { BeerService } from '../beer.service';
@@ -28,7 +27,7 @@ export class WishlistComponent implements OnInit {
   goToBeer(beer) {
     let selectedBeer;
     this.beerList.forEach((item) => {
-      if(item.name === beer.name){
+      if(item.name === beer){
         selectedBeer=item;
       }
     })
