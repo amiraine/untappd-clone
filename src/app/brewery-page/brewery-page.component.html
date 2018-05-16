@@ -1,19 +1,22 @@
-<div class="panel">
-  <div class="row">
-    <div class="col-md-1">
-
-    </div>
-    <div class="col-md-11">
+<div class="row">
+  <div class="col-md-1">
+    <!--  -->
+  </div>
+  <div class="col-md-10">
+    <div class="panel">
       <h3>{{selectedBrewery?.name}}</h3>
       <p>{{selectedBrewery?.address}}</p>
       <p>{{selectedBrewery?.city}}, {{selectedBrewery?.state}} {{selectedBrewery?.zip}}</p>
       <hr>
+      <div class="row">
+        <ul>
+          <li *ngFor="let beer of selectedBrewery.beers" (click)="goToBeer(beer)">{{beer}}</li>
+        </ul>
+      </div>
     </div>
   </div>
-  <div class="row">
-    <ul>
-      <li *ngFor="let beer of selectedBrewery.beers" (click)="goToBeer(beer)">{{beer}}</li>
-    </ul>
+  <div class="col-md-1">
+<!--  -->
   </div>
 </div>
 <button class="btn btn-success" (click)="showAdmin()">Add New Beer</button>

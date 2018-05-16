@@ -7,6 +7,7 @@
 }
 body{
   background-color: #edfffd!important;
+  font-family: "Roboto", sans-serif;
 }
 a:hover{
   color: #eeeeee!important;
@@ -41,6 +42,14 @@ textarea{
   width: inherit;
 }
 /* CLASS STYLES*/
+.post{
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px!important;
+  border: solid 1px #dddddd;
+  color: darkgrey;
+}
 .logo{
   font-family: 'Bungee Inline', sans-serif!important;
   font-size: 40px!important;
@@ -57,6 +66,9 @@ textarea{
   position: relative!important;
   display: block!important;
   float: left;
+}
+.emphasis{
+  color: #262626;
 }
 .container-fluid{
   margin-top: 5vh;
