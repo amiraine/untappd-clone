@@ -15,6 +15,8 @@ export class MyPageComponent implements OnInit {
   postList;
   userPostList: Array<object> = new Array();
   beerList;
+  edit: boolean = false;
+  selectedPost;
   constructor(private userService: UserService, private postService: PostService, private beerService: BeerService) { }
 
   ngOnInit() {
@@ -42,6 +44,25 @@ export class MyPageComponent implements OnInit {
         return beer.brewery;
       }
     })
+  }
+
+  editPost(post) {
+    this.edit=true;
+    this.selectedPost = post;
+  }
+
+  endEdit(){
+    this.edit=false;
+    this.postService.getPosts().subscribe(dataLastEmittedFromObserver => {
+      this.postList = dataLastEmittedFromObserver;
+      this.postList.forEach((post) => {
+        this.userPostList = [];
+        if(post.postedBy === this.currentUser.name){
+          this.userPostList.push(post);
+        }
+      })
+    })
+
   }
 
 }

@@ -23,6 +23,7 @@ import { AdminComponent } from './admin/admin.component';
 import { BeerDetailComponent } from './beer-detail/beer-detail.component';
 import { AddBeerComponent } from './add-beer/add-beer.component';
 import { AddPostComponent } from './add-post/add-post.component';
+import { EditPostComponent } from './edit-post/edit-post.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -46,6 +47,7 @@ export const firebaseConfig = {
     BeerDetailComponent,
     AddBeerComponent,
     AddPostComponent,
+    EditPostComponent,
     // SearchPipe
   ],
   imports: [
