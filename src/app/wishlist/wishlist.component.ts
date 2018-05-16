@@ -27,7 +27,7 @@ export class WishlistComponent implements OnInit {
   goToBeer(beer) {
     let selectedBeer;
     this.beerList.forEach((item) => {
-      if(item.name === beer.name){
+      if(item.name === beer){
         selectedBeer=item;
       }
     })
